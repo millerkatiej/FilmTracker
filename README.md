@@ -19,5 +19,8 @@ Feature List:
 Interesting Query:
 - I can figure out which directors/distributors/lanuages I watch most often. 
 
+Data Source: 
+- User generated data, original data from records I have kept about my movie viewing history.
+
 
 
