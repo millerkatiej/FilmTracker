@@ -10,7 +10,7 @@ Project Requirements:
 
 
 Feature List:
-- I can enter a film's title, director, release year, country of origin, language, distributor, date viewed, and personal rating.
+- I can enter a film's title, director, release year, country of origin, language, distributor, date viewed, and personal rating and formated viewed.
 - I can query by any of the above data.
 - I can view a full list of movies viewed.
 - I can sort movies by personal rating.
