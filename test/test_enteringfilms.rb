@@ -1,19 +1,27 @@
 require_relative 'helper'
+require 'sqlite3'
 
-class TestEnteringFilms < MiniTest::Unit::TestCase
+class TestEnteringFilms < FilmTest
 	def test_valid_purchase_information_gets_printed
 	    command = "./filmtracker add Persona --year 1966 --director 'Ingmar Bergman' --country Sweden"
-	    expected = "Theoretically creating: a film named Persona, released in 1966 and directed by Ingmar Bergman from Sweden."
+	    expected = "You have created a film named Persona, released in 1966 and directed by Ingmar Bergman from Sweden."
 	    assert_command_output expected, command
 	end
+
 	def test_valid_film_saved
-		skip "test valid film saved"
-		assert false
+	`./filmtracker add Persona --director 'Ingmar Bergman' --year 1966 --country Sweden`
+    results = database.execute("select name, director, year, country from films")
+    expected = ["Persona", "Ingmar Bergman", 1966, "Sweden"]
+    assert_equal expected, results[0]
+
+    result = database.execute("select count(id) from films")
+    assert_equal 1, result[0][0]
 	end
 
 	def test_invalid_film_not_saved
-		skip "test valid film not saved"
-		assert false
+		`./filmtracker add Persona --director 'Ingmar Bergman'`
+    	result = database.execute("select count(id) from films")
+    	assert_equal 0, result[0][0]
 	end
 
   	def test_error_message_for_missing_name
@@ -29,13 +37,13 @@ class TestEnteringFilms < MiniTest::Unit::TestCase
 	end
 
 	def test_error_message_for_missing_year
-		command = "./filmtracker add Persona --director 'Ingmar Bergman' --country Sweden"
+		command = "./filmtracker add Persona --director Ingmar Bergman --country Sweden"
 		expected = "You must provide the year of the film you are adding."
 		assert_command_output expected, command
 	end
 
 	def test_error_message_for_missing_country_of_origin
-		command = "./filmtracker add Persona --year 1966 --director 'Ingmar Bergman'"
+		command = "./filmtracker add Persona --year 1966 --director Ingmar Bergman"
 		expected = "You must provide the country of origin of the film you are adding."
 		assert_command_output expected, command
 	end

@@ -6,7 +6,6 @@ class ParseArguments
 		OptionParser.new do |opts|
 		  opts.banner = "Usage: filmtracker [command] [options]"
 
-
 		  opts.on("--director [DIRECTOR]", "The director") do |director|
 		    options[:director] = director
 		  end

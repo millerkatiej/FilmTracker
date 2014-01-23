@@ -7,8 +7,14 @@ options = ParseArguments.parse
 options[:name] = ARGV[1]
 error_messages = ParseArguments.validate(options)
 
+
 if error_messages.empty?
-	puts "Theoretically creating: a film named #{options[:name]}, released in #{options[:year]} and directed by #{options[:director]} from #{options[:country]}."
+  require "sqlite3"
+  database = SQLite3::Database.new("db/filmtracker_test.sqlite3")
+  # This is ripe for a SQL injection attack:
+  statement = "insert into films(name, director, year, country) values('#{options[:name]}', '#{options[:director]}', #{options[:year]}, '#{options[:country]}')"
+  database.execute(statement)
+	puts "You have created a film named #{options[:name]}, released in #{options[:year]} and directed by #{options[:director]} from #{options[:country]}."
 else
   puts error_messages
 end
