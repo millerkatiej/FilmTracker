@@ -9,26 +9,32 @@ options = {}
 OptionParser.new do |opts|
   opts.banner = "Usage: filmtracker [command] [options]"
 
-  opts.on("--title [TITLE]", "The title") do |title|
-    options[:title] = title
-  end
 
   opts.on("--director [DIRECTOR]", "The director") do |director|
     options[:director] = director
   end
+
+  opts.on("--year [YEAR]", "The year") do |year|
+    options[:year] = year
+  end
+
+  opts.on("--country [COUNTRY]", "The country of origin") do |country|
+    options[:country] = country
+  end
 end.parse!
 
 if name.nil? or name.empty?
-  puts "You must provide the information about the film you are adding."
+  puts "You must provide the name of the film you are adding."
   exit
 end
 
 missing_things = []
-missing_things << "title" unless options[:title]
+missing_things << "year" unless options[:year]
 missing_things << "director" unless options[:director]
+missing_things << "country of origin" unless options[:country]
 unless missing_things.empty?
   puts "You must provide the #{missing_things.join(" and ")} of the film you are adding."
   exit
 end
 
-puts "Theoretically creating: a film titled #{name}, by director #{options[:director]}"
+puts "Theoretically creating: a film named #{name}, released in #{options[:year]} and directed by #{options[:director]} from #{options[:country]}."
