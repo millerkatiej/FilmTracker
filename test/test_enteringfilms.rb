@@ -53,7 +53,12 @@ class TestEnteringFilms < FilmTest
 	    expected = "You must provide the year and director of the film you are adding."
 	    assert_command_output expected, command
 	end
-	
+		
+	def test_error_message_for_missing_director_and_country
+	    command = "./filmtracker add Persona --year 1966"
+	    expected = "You must provide the director and country of origin of the film you are adding."
+	    assert_command_output expected, command
+	end
 
 
 end

@@ -9,6 +9,7 @@ end
 desc "Run tests"
 task :default => :test
 
+desc "Prepares the database"
 task :bootstrap_database do
   require 'sqlite3'
   database = SQLite3::Database.new("db/filmtracker_test.sqlite3")
