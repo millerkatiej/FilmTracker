@@ -1,5 +1,4 @@
 require_relative 'helper'
-require 'sqlite3'
 
 class TestEnteringFilms < FilmTest
 	def test_valid_purchase_information_gets_printed
