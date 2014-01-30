@@ -1,5 +1,5 @@
 require_relative 'database'
-require_relative '../models/purchase'
+require_relative '../models/film'
 require 'logger'
 
 class Environment

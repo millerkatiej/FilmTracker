@@ -1,4 +1,4 @@
-class Title
+class Film
   attr_accessor :name, :director, :year, :country
   attr_reader :id
 
@@ -7,9 +7,9 @@ class Title
   end
 
   def self.create(attributes = {})
-    title = Title.new(attributes)
-    title.save
-    title
+    film = Film.new(attributes)
+    film.save
+    film
   end
 
   def update attributes = {}
@@ -20,9 +20,9 @@ class Title
   def save
     database = Environment.database_connection
     if id
-      database.execute("update titles set name = '#{name}', director = '#{director}', year = '#{year}', country = '#{country}' where id = #{id}")
+      database.execute("update films set name = '#{name}', director = '#{director}', year = '#{year}', country = '#{country}' where id = #{id}")
     else
-      database.execute("insert into titles(name, director, year, country) values('#{name}', #{director}, #{year}, #{country})")
+      database.execute("insert into films(name, director, year, country) values('#{name}', #{director}, #{year}, #{country})")
       @id = database.last_insert_row_id
     end
     # ^ fails silently!!
@@ -32,11 +32,11 @@ class Title
   def self.find id
     database = Environment.database_connection
     database.results_as_hash = true
-    results = database.execute("select * from titles where id = #{id}")[0]
+    results = database.execute("select * from films where id = #{id}")[0]
     if results
-      title = Title.new(name: results["name"], director: results["director"], year: results["year"], country: results["country"])
-      title.send("id=", results["id"])
-      title
+      film = Film.new(name: results["name"], director: results["director"], year: results["year"], country: results["country"])
+      film.send("id=", results["id"])
+      film
     else
       nil
     end
@@ -45,11 +45,11 @@ class Title
   def self.all
     database = Environment.database_connection
     database.results_as_hash = true
-    results = database.execute("select * from titles order by name ASC")
+    results = database.execute("select * from films order by name ASC")
     results.map do |row_hash|
-      title = Title.new(name: row_hash["name"], director: row_hash["director"], year: row_hash["year"], country: row_hash["country"])
-      title.send("id=", row_hash["id"])
-      title
+      film = Film.new(name: row_hash["name"], director: row_hash["director"], year: row_hash["year"], country: row_hash["country"])
+      film.send("id=", row_hash["id"])
+      film
     end
   end
 

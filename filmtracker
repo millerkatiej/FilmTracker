@@ -1,20 +1,46 @@
 #!/usr/bin/env ruby
 
+require_relative 'lib/environment'
 require_relative 'lib/parse_arguments'
 
 command = ARGV[0]
 options = ParseArguments.parse
-options[:name] = ARGV[1]
-error_messages = ParseArguments.validate(options)
+options[:name] ||= ARGV[1]
+
+Environment.environment = options[:environment] || "production"
+database = Environment.database_connection
 
 
-if error_messages.empty?
-  require "sqlite3"
-  database = SQLite3::Database.new("db/filmtracker_test.sqlite3")
-  # This is ripe for a SQL injection attack:
-  statement = "insert into films(name, director, year, country) values('#{options[:name]}', '#{options[:director]}', #{options[:year]}, '#{options[:country]}')"
-  database.execute(statement)
-	puts "You have created a film named #{options[:name]}, released in #{options[:year]} and directed by #{options[:director]} from #{options[:country]}."
+if command == "search"
+  puts "What do you want to search for?"
+  input = $stdin.gets.chomp
+  puts "You asked for: #{input}"
+  statement = "select films.name from films where name LIKE '%#{input}%'"
+  results = database.execute(statement)
+  puts results
+elsif command == "add"
+  error_messages = ParseArguments.validate(options)
+  if error_messages.empty?
+    film = Film.new(options)
+    film.save
+	puts "You have created a film named #{film.name}, released in #{film.year} and directed by #{film.director} from #{film.country}."
+  else
+    puts error_messages
+  end
+elsif command == "list"
+  puts "All Films:"
+  puts Film.all
+  # ^equivalent to:
+  # Film.all.each do |film|
+  #   print film.to_s + "\n"
+  # end
+elsif command == "edit"
+  if film = Film.find(options[:id])
+    film.update(options)
+    puts "Film #{film.id} is now named #{film.name}, released in #{film.year} and directed by #{film.director} from #{film.country}."
+  else
+    puts "Film #{options[:id]} couldn't be found."
+  end
 else
-  puts error_messages
+  puts "Command not implemented"
 end
