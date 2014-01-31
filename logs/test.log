@@ -1,8 +1,5 @@
-# Logfile created on 2014-01-30 10:52:12 -0600 by logger.rb/41954
-I, [2014-01-30T10:52:12.995902 #2469]  INFO -- : Executing: CREATE TABLE films (id INTEGER PRIMARY KEY AUTOINCREMENT, name varchar(50), director varchar (50), year integer, country varchar(30)
-I, [2014-01-30T10:53:02.806776 #2470]  INFO -- : Executing: CREATE TABLE films (id INTEGER PRIMARY KEY AUTOINCREMENT, name varchar(50), director varchar (50), year integer, country varchar(30)
-I, [2014-01-30T10:55:30.712126 #2476]  INFO -- : Executing: CREATE TABLE films (id INTEGER PRIMARY KEY AUTOINCREMENT, name varchar(50), director varchar (50), year integer, country varchar(30)
-I, [2014-01-30T10:55:37.686308 #2479]  INFO -- : Executing: CREATE TABLE films (id INTEGER PRIMARY KEY AUTOINCREMENT, name varchar(50), director varchar (50), year integer, country varchar(30)
-I, [2014-01-30T10:58:32.530501 #2958]  INFO -- : Executing: CREATE TABLE films (id INTEGER PRIMARY KEY AUTOINCREMENT, name varchar(50), director varchar (50), year integer, country varchar(30)
-I, [2014-01-30T11:05:24.335994 #2973]  INFO -- : Executing: CREATE TABLE films (id INTEGER PRIMARY KEY AUTOINCREMENT, name varchar(50), director varchar (50), year integer, country varchar(30))
-I, [2014-01-30T11:16:44.392031 #3014]  INFO -- : Executing: CREATE TABLE films (id INTEGER PRIMARY KEY AUTOINCREMENT, name varchar(50), director varchar (50), year integer, country varchar(30))
+I, [2014-01-31T11:43:50.730403 #4984]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden'')
+I, [2014-01-31T11:43:50.761577 #4983]  INFO -- : Executing: delete from films
+I, [2014-01-31T11:46:45.597578 #4990]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden'')
+I, [2014-01-31T11:46:45.625704 #4989]  INFO -- : Executing: delete from films
+I, [2014-01-31T11:48:27.811567 #4997]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden'')

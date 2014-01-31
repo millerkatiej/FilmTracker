@@ -23,7 +23,8 @@ elsif command == "add"
   if error_messages.empty?
     film = Film.new(options)
     film.save
-	puts "You have created a film named #{film.name}, released in #{film.year} and directed by #{film.director} from #{film.country}."
+    puts "this is a test2"
+    puts "You have created a film named #{film.name}, released in #{film.year} and directed by #{film.director} from #{film.country}."
   else
     puts error_messages
   end

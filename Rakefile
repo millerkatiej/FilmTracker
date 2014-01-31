@@ -11,7 +11,7 @@ desc "Run tests"
 task :default => :test
 
 
-desc "create the production database setup"
+desc "Create the production database setup"
 task :bootstrap_database do
 	Environment.environment = "production"
 	database = Environment.database_connection

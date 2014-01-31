@@ -4,3 +4,7 @@ I, [2014-01-30T11:03:03.012246 #2969]  INFO -- : Executing: CREATE TABLE films (
 I, [2014-01-30T11:03:33.862808 #2970]  INFO -- : Executing: CREATE TABLE films (id INTEGER PRIMARY KEY AUTOINCREMENT, name varchar(50), director varchar (50), year integer, country varchar(30)
 I, [2014-01-30T11:05:20.632097 #2972]  INFO -- : Executing: CREATE TABLE films (id INTEGER PRIMARY KEY AUTOINCREMENT, name varchar(50), director varchar (50), year integer, country varchar(30))
 I, [2014-01-30T11:16:38.659932 #3013]  INFO -- : Executing: CREATE TABLE films (id INTEGER PRIMARY KEY AUTOINCREMENT, name varchar(50), director varchar (50), year integer, country varchar(30))
+I, [2014-01-31T09:43:57.840188 #4707]  INFO -- : Executing: CREATE TABLE films (id INTEGER PRIMARY KEY AUTOINCREMENT, name varchar(50), director varchar (50), year integer, country varchar(30))
+I, [2014-01-31T11:39:25.285548 #4943]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden'')
+I, [2014-01-31T11:40:54.917240 #4959]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden'')
+I, [2014-01-31T11:41:57.453631 #4967]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden'')

@@ -20,13 +20,11 @@ class Film
   def save
     database = Environment.database_connection
     if id
-      database.execute("update films set name = '#{name}', director = '#{director}', year = '#{year}', country = '#{country}' where id = #{id}")
+      database.execute("update films set name = #{name}, director = #{director}, year = #{year}, country = #{country} where id = #{id}")
     else
-      database.execute("insert into films(name, director, year, country) values('#{name}', #{director}, #{year}, #{country})")
+      database.execute("insert into films(name, director, year, country) values('#{name}', '#{director}', #{year}, '#{country}'')")
       @id = database.last_insert_row_id
     end
-    # ^ fails silently!!
-    # ^ Also, susceptible to SQL injection!
   end
 
   def self.find id
