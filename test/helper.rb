@@ -11,9 +11,9 @@ class FilmTest < MiniTest::Unit::TestCase
     Environment.database_connection
   end
 
-  # def teardown
-  #   database.execute("delete from films")
-  # end
+  def teardown
+    database.execute("delete from films")
+  end
 
   def assert_command_output expected, command
     actual = `#{command} --environment test`.strip

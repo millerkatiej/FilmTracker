@@ -1,6 +1,6 @@
 require_relative 'helper'
 
-class TestSearchingFilmss < FilmTest
+class TestSearchingFilms < FilmTest
   def test_search_returns_relevant_results
     `./filmtracker add Persona --director "Ingmar Bergman" --year 1966 --country Sweden --environment test`
     `./filmtracker add "The Third Generation" --director "Rainer Werner Fassbinder" --year 1975 --country Germany --environment test`

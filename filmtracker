@@ -21,15 +21,13 @@ if command == "search"
 elsif command == "add"
   error_messages = ParseArguments.validate(options)
   if error_messages.empty?
-    film = Film.new(options)
-    film.save
-    puts "this is a test2"
-    puts "You have created a film named #{film.name}, released in #{film.year} and directed by #{film.director} from #{film.country}."
+    film = Film.create(options)
+    puts "You have created a film named #{film.name}, released in #{film.year} and directed by #{film.director}, and from #{film.country}."
   else
     puts error_messages
   end
 elsif command == "list"
-  puts "All Films:"
+  print "All Films:\n" 
   puts Film.all
   # ^equivalent to:
   # Film.all.each do |film|
@@ -38,7 +36,7 @@ elsif command == "list"
 elsif command == "edit"
   if film = Film.find(options[:id])
     film.update(options)
-    puts "Film #{film.id} is now named #{film.name}, released in #{film.year} and directed by #{film.director} from #{film.country}."
+    puts "Film #{film.id} is now named #{film.name}, released in #{film.year} and directed by #{film.director}, and from #{film.country}."
   else
     puts "Film #{options[:id]} couldn't be found."
   end

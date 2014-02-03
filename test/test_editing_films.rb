@@ -5,14 +5,14 @@ class TestEditingFilms < FilmTest
     film = Film.new(name: "Persona", director: "Ingmar Bergman", year: 1966, country: "Sweden")
     film.save
     id = film.id
-    command = "./filmtracker edit --id #{id} --name Persona --year 1967 --director 'Ingmar Bergman' --country Sweden"
-    expected = "Film #{id} is now named Persona, with Ingmar Bergman as director, released in 1967 from Sweden."
+    command = "./filmtracker edit --id #{id} --name Persona --year 1967 --director 'Ingmar Bergman' --country Sweden --environment test"
+    expected = "Film #{id} is now named Persona, released in 1967 and directed by Ingmar Bergman, and from Sweden."
     # What about the db?
     assert_command_output expected, command
   end
 
   def test_attempting_to_update_a_nonexistant_record
-    command = "./filmtracker edit --id 218903123980123 --name Persona --year 1966 --director 'Ingmar Bergman' --country Sweden"
+    command = "./filmtracker edit --id 218903123980123 --name Persona --year 1966 --director 'Ingmar Bergman' --country Sweden --environment test"
     expected = "Film 218903123980123 couldn't be found."
     assert_command_output expected, command
   end
@@ -21,8 +21,8 @@ class TestEditingFilms < FilmTest
     film = Film.new(name: "Persona", director: "Ingmar Bergman", year: 1966, country: "Sweden")
     film.save
     id = film.id
-    command = "./filmtracker edit --id #{id} --name Persona --year 1966 --director 'Ingmar Bergman' --country Sweden"
-    expected = "Film #{id} is now named Persona, with Ingmar Bergman as director, released in 1966 from Sweden."
+    command = "./filmtracker edit --id #{id} --name Persona --year 1966 --director 'Ingmar Bergman' --country Sweden --environment test"
+    expected = "Film #{id} is now named Persona, released in 1966 and directed by Ingmar Bergman, and from Sweden."
     assert_command_output expected, command
   end
 
@@ -37,12 +37,12 @@ class TestEditingFilms < FilmTest
   end
 
   def test_attempting_to_update_partial_data
-    skip
+    
     film = Film.new(name: "Persona", director: "Ingmar Bergman", year: 1966, country: "Sweden")
     film.save
     id = film.id #<--- First thing we have to implement
     command = "./filmtracker edit --id #{id} --name Persona"
-    expected = "Film #{id} is now named Persona, with Ingmar Bergman as director, released in 1966 from Sweden."
+    expected = "Film #{id} is now named Persona, released in 1966 and directed by Ingmar Bergman, and from Sweden."
     assert_command_output expected, command
   end
 end

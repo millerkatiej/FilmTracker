@@ -1,5 +1,807 @@
-I, [2014-01-31T11:43:50.730403 #4984]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden'')
-I, [2014-01-31T11:43:50.761577 #4983]  INFO -- : Executing: delete from films
-I, [2014-01-31T11:46:45.597578 #4990]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden'')
-I, [2014-01-31T11:46:45.625704 #4989]  INFO -- : Executing: delete from films
-I, [2014-01-31T11:48:27.811567 #4997]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden'')
+I, [2014-02-03T13:35:12.614600 #8813]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:35:12.689534 #8813]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:35:12.757338 #8813]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:35:12.825859 #8813]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:35:12.891835 #8818]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T13:35:12.896560 #8813]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:35:12.967237 #8813]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:35:13.038977 #8813]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:35:13.113022 #8813]  INFO -- : Executing: select count(id) from films
+I, [2014-02-03T13:35:13.113534 #8813]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:35:13.184954 #8813]  INFO -- : Executing: select name, director, year, country from films
+I, [2014-02-03T13:35:13.214192 #8813]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:37:08.044223 #8852]  INFO -- : Executing: select count(id) from films
+I, [2014-02-03T13:37:08.044816 #8852]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:37:08.122448 #8854]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T13:37:08.127745 #8852]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:37:08.197713 #8852]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:37:08.264133 #8852]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:37:08.332985 #8852]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:37:08.403251 #8852]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:37:08.476315 #8852]  INFO -- : Executing: SELECT name, director, year, country FROM films
+I, [2014-02-03T13:37:08.501684 #8852]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:37:08.575217 #8852]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:37:08.642307 #8852]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:41:10.526130 #9045]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T13:41:10.537899 #9044]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:41:10.605334 #9044]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:41:10.675474 #9044]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:41:10.743762 #9044]  INFO -- : Executing: SELECT name, director, year, country FROM films
+I, [2014-02-03T13:41:10.770328 #9044]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:41:10.844190 #9044]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:41:10.912219 #9044]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:41:10.980691 #9044]  INFO -- : Executing: select count(id) from films
+I, [2014-02-03T13:41:10.981310 #9044]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:41:11.045589 #9044]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:41:11.113541 #9044]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:42:14.407730 #9059]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T13:42:14.417573 #9058]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:42:14.490364 #9058]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:42:14.559509 #9058]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:42:14.632459 #9058]  INFO -- : Executing: SELECT name, director, year, country FROM films
+I, [2014-02-03T13:42:14.658258 #9058]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:42:14.737136 #9058]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:42:14.807678 #9058]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:42:14.876777 #9058]  INFO -- : Executing: select count(id) from films
+I, [2014-02-03T13:42:14.877211 #9058]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:42:14.951091 #9058]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:42:15.015913 #9058]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:45:05.076372 #9080]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:45:05.141184 #9080]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:45:05.210002 #9083]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T13:45:05.240537 #9080]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:45:05.313873 #9080]  INFO -- : Executing: select count(id) from films
+I, [2014-02-03T13:45:05.314477 #9080]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:45:05.385428 #9080]  INFO -- : Executing: SELECT name, director, year, country FROM films
+I, [2014-02-03T13:45:05.386001 #9080]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:45:05.464983 #9080]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:45:05.531681 #9080]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:45:05.605723 #9080]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:45:05.671243 #9080]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:47:19.543085 #9106]  INFO -- : Executing: CREATE TABLE films (id INTEGER PRIMARY KEY AUTOINCREMENT, name varchar(50), director varchar (50), year integer, country varchar(30))
+I, [2014-02-03T13:47:22.184852 #9107]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:47:22.259072 #9107]  INFO -- : Executing: select count(id) from films
+I, [2014-02-03T13:47:22.259679 #9107]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:47:22.329177 #9107]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:47:22.401898 #9107]  INFO -- : Executing: SELECT name, director, year, country FROM films
+I, [2014-02-03T13:47:22.428889 #9107]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:47:22.502351 #9107]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:47:22.575287 #9107]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:47:22.638594 #9117]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T13:47:22.643497 #9107]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:47:22.718618 #9107]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:47:22.785962 #9107]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:50:39.486977 #9131]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T13:50:39.496423 #9130]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:50:39.565142 #9132]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T13:50:39.569331 #9130]  INFO -- : Executing: SELECT name, director, year, country FROM films
+I, [2014-02-03T13:50:39.569758 #9130]  INFO -- : Executing: select count(id) from films
+I, [2014-02-03T13:50:39.569914 #9130]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:50:39.642060 #9130]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:50:39.709295 #9130]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:50:39.782232 #9130]  INFO -- : Executing: select count(id) from films
+I, [2014-02-03T13:50:39.782619 #9130]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:50:39.847331 #9130]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:50:39.917976 #9130]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:50:39.984579 #9130]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:50:40.057246 #9130]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:51:33.553691 #9142]  INFO -- : Executing: select * from films where id = 218903123980123
+I, [2014-02-03T13:51:33.560101 #9141]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:51:33.561956 #9141]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T13:51:33.628069 #9143]  INFO -- : Executing: select * from films where id = 4
+I, [2014-02-03T13:51:33.628631 #9143]  INFO -- : Executing: update films set name = Persona, director = Ingmar Bergman, year = 1966, country = Sweden where id = 4
+I, [2014-02-03T13:51:33.655657 #9141]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:51:33.656801 #9141]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:51:33.659855 #9141]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T13:51:33.731365 #9147]  INFO -- : Executing: select * from films where id = 5
+I, [2014-02-03T13:51:33.731846 #9147]  INFO -- : Executing: update films set name = Persona, director = Ingmar Bergman, year = 1967, country = Sweden where id = 5
+I, [2014-02-03T13:51:33.740170 #9141]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:51:33.741449 #9141]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:52:08.486717 #9153]  INFO -- : Executing: select count(id) from films
+I, [2014-02-03T13:52:08.487716 #9153]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:52:08.559368 #9153]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:52:08.632485 #9153]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:52:08.700110 #9157]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T13:52:08.704684 #9153]  INFO -- : Executing: SELECT name, director, year, country FROM films
+I, [2014-02-03T13:52:08.705263 #9153]  INFO -- : Executing: select count(id) from films
+I, [2014-02-03T13:52:08.705468 #9153]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:52:08.772875 #9158]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T13:52:08.777471 #9153]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:52:08.844417 #9153]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:52:08.918513 #9153]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:52:08.986245 #9153]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:52:09.058097 #9153]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:52:23.962788 #9163]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:52:24.033447 #9163]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:52:24.103989 #9163]  INFO -- : Executing: select count(id) from films
+I, [2014-02-03T13:52:24.104470 #9163]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:52:24.170876 #9163]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:52:24.240347 #9163]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:52:24.306870 #9163]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:52:24.375664 #9163]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:52:24.449018 #9171]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T13:52:24.453434 #9163]  INFO -- : Executing: SELECT name, director, year, country FROM films
+I, [2014-02-03T13:52:24.453954 #9163]  INFO -- : Executing: select count(id) from films
+I, [2014-02-03T13:52:24.454128 #9163]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:52:24.524789 #9172]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T13:52:24.529414 #9163]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:52:42.247622 #9173]  INFO -- : Executing: select count(id) from films
+I, [2014-02-03T13:52:42.248453 #9173]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:52:42.315489 #9175]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T13:52:42.320727 #9173]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:52:42.392900 #9173]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:52:42.462038 #9173]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:52:42.533603 #9173]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:52:42.596502 #9179]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T13:52:42.601173 #9173]  INFO -- : Executing: SELECT name, director, year, country FROM films
+I, [2014-02-03T13:52:42.601776 #9173]  INFO -- : Executing: select count(id) from films
+I, [2014-02-03T13:52:42.601983 #9173]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:52:42.681259 #9173]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:52:42.747135 #9173]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:52:42.819436 #9173]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:52:50.123687 #9183]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:52:50.195977 #9183]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:52:50.269278 #9183]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:52:50.332513 #9187]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T13:52:50.337384 #9183]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:52:50.408548 #9183]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:52:50.476598 #9183]  INFO -- : Executing: select count(id) from films
+I, [2014-02-03T13:52:50.477177 #9183]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:52:50.550557 #9183]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:52:50.614212 #9191]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T13:52:50.618879 #9183]  INFO -- : Executing: SELECT name, director, year, country FROM films
+I, [2014-02-03T13:52:50.619423 #9183]  INFO -- : Executing: select count(id) from films
+I, [2014-02-03T13:52:50.619618 #9183]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:52:50.691573 #9183]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:52:58.915350 #9193]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:52:58.920827 #9193]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T13:52:58.996117 #9194]  INFO -- : Executing: select * from films where id = 14
+I, [2014-02-03T13:52:58.996601 #9194]  INFO -- : Executing: update films set name = Persona, director = Ingmar Bergman, year = 1966, country = Sweden where id = 14
+I, [2014-02-03T13:52:59.023084 #9193]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:52:59.024286 #9193]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:52:59.095553 #9198]  INFO -- : Executing: select * from films where id = 218903123980123
+I, [2014-02-03T13:52:59.098770 #9193]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:52:59.100003 #9193]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T13:52:59.168092 #9199]  INFO -- : Executing: select * from films where id = 15
+I, [2014-02-03T13:52:59.168591 #9199]  INFO -- : Executing: update films set name = Persona, director = Ingmar Bergman, year = 1967, country = Sweden where id = 15
+I, [2014-02-03T13:52:59.177161 #9193]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:53:14.459238 #9202]  INFO -- : Executing: select * from films where id = 218903123980123
+I, [2014-02-03T13:53:14.464436 #9201]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:53:14.466372 #9201]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:53:14.467338 #9201]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:53:14.468124 #9201]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T13:53:14.536460 #9203]  INFO -- : Executing: select * from films where id = 16
+I, [2014-02-03T13:53:14.537017 #9203]  INFO -- : Executing: update films set name = Persona, director = Ingmar Bergman, year = 1966, country = Sweden where id = 16
+I, [2014-02-03T13:53:14.565578 #9201]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:53:14.566743 #9201]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T13:53:14.638947 #9207]  INFO -- : Executing: select * from films where id = 17
+I, [2014-02-03T13:53:14.639615 #9207]  INFO -- : Executing: update films set name = Persona, director = Ingmar Bergman, year = 1967, country = Sweden where id = 17
+I, [2014-02-03T13:53:14.648448 #9201]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:54:33.511733 #9210]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T13:54:33.587186 #9211]  INFO -- : Executing: select * from films where id = 18
+I, [2014-02-03T13:54:33.587711 #9211]  INFO -- : Executing: update films set name = Persona, director = Ingmar Bergman, year = 1967, country = Sweden where id = 18
+I, [2014-02-03T13:54:33.616937 #9210]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:54:33.618082 #9210]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T13:54:33.681170 #9215]  INFO -- : Executing: select * from films where id = 19
+I, [2014-02-03T13:54:33.681660 #9215]  INFO -- : Executing: update films set name = Persona, director = Ingmar Bergman, year = 0, country = Sweden where id = 19
+I, [2014-02-03T13:54:33.692595 #9210]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:54:33.693548 #9210]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T13:54:33.763898 #9217]  INFO -- : Executing: select * from films where id = 20
+I, [2014-02-03T13:54:33.764485 #9217]  INFO -- : Executing: update films set name = Persona, director = Ingmar Bergman, year = 1966, country = Sweden where id = 20
+I, [2014-02-03T13:54:33.773564 #9210]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:54:33.774888 #9210]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T13:54:33.847887 #9219]  INFO -- : Executing: select * from films where id = 21
+I, [2014-02-03T13:54:33.848426 #9219]  INFO -- : Executing: update films set name = Persona, director = Ingmar Bergman, year = 1966, country = Sweden where id = 21
+I, [2014-02-03T13:54:33.856346 #9210]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:54:33.924412 #9221]  INFO -- : Executing: select * from films where id = 218903123980123
+I, [2014-02-03T13:54:33.928175 #9210]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:55:15.354469 #9226]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T13:55:15.431194 #9227]  INFO -- : Executing: select * from films where id = 22
+I, [2014-02-03T13:55:15.431717 #9227]  INFO -- : Executing: update films set name = Persona, director = Ingmar Bergman, year = 0, country = Sweden where id = 22
+I, [2014-02-03T13:55:15.458239 #9226]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:55:15.459544 #9226]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T13:55:15.525979 #9231]  INFO -- : Executing: select * from films where id = 23
+I, [2014-02-03T13:55:15.526560 #9231]  INFO -- : Executing: update films set name = Persona, director = Ingmar Bergman, year = 1966, country = Sweden where id = 23
+I, [2014-02-03T13:55:15.537815 #9226]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:55:15.538869 #9226]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T13:55:15.611911 #9233]  INFO -- : Executing: select * from films where id = 24
+I, [2014-02-03T13:55:15.612441 #9233]  INFO -- : Executing: update films set name = Persona, director = Ingmar Bergman, year = 1966, country = Sweden where id = 24
+I, [2014-02-03T13:55:15.621508 #9226]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:55:15.622627 #9226]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T13:55:15.693882 #9235]  INFO -- : Executing: select * from films where id = 25
+I, [2014-02-03T13:55:15.694396 #9235]  INFO -- : Executing: update films set name = Persona, director = Ingmar Bergman, year = 1967, country = Sweden where id = 25
+I, [2014-02-03T13:55:15.702776 #9226]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:55:15.772257 #9237]  INFO -- : Executing: select * from films where id = 218903123980123
+I, [2014-02-03T13:55:15.776107 #9226]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:56:04.660210 #9238]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T13:56:04.738955 #9239]  INFO -- : Executing: select * from films where id = 26
+I, [2014-02-03T13:56:04.739467 #9239]  INFO -- : Executing: update films set name = Persona, director = Ingmar Bergman, year = 0, country = Sweden where id = 26
+I, [2014-02-03T13:56:04.767737 #9238]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:56:04.768893 #9238]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T13:56:04.839723 #9243]  INFO -- : Executing: select * from films where id = 27
+I, [2014-02-03T13:56:04.840336 #9243]  INFO -- : Executing: update films set name = Persona, director = Ingmar Bergman, year = 1966, country = Sweden where id = 27
+I, [2014-02-03T13:56:04.850742 #9238]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:56:04.851664 #9238]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T13:56:04.920420 #9245]  INFO -- : Executing: select * from films where id = 28
+I, [2014-02-03T13:56:04.920913 #9245]  INFO -- : Executing: update films set name = Persona, director = Ingmar Bergman, year = 1967, country = Sweden where id = 28
+I, [2014-02-03T13:56:04.929208 #9238]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:56:04.930417 #9238]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T13:56:05.001909 #9247]  INFO -- : Executing: select * from films where id = 29
+I, [2014-02-03T13:56:05.002445 #9247]  INFO -- : Executing: update films set name = Persona, director = Ingmar Bergman, year = 1966, country = Sweden where id = 29
+I, [2014-02-03T13:56:05.010410 #9238]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:56:05.074408 #9249]  INFO -- : Executing: select * from films where id = 218903123980123
+I, [2014-02-03T13:56:05.083364 #9238]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:56:22.567015 #9252]  INFO -- : Executing: select * from films where id = 218903123980123
+I, [2014-02-03T13:56:22.571535 #9251]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:56:22.573218 #9251]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T13:56:22.634529 #9253]  INFO -- : Executing: select * from films where id = 30
+I, [2014-02-03T13:56:22.635046 #9253]  INFO -- : Executing: update films set name = Persona, director = Ingmar Bergman, year = 1966, country = Sweden where id = 30
+I, [2014-02-03T13:56:22.664516 #9251]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:56:22.665745 #9251]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T13:56:22.740663 #9257]  INFO -- : Executing: select * from films where id = 31
+I, [2014-02-03T13:56:22.741238 #9257]  INFO -- : Executing: update films set name = Persona, director = Ingmar Bergman, year = 0, country = Sweden where id = 31
+I, [2014-02-03T13:56:22.749770 #9251]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:56:22.750986 #9251]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T13:56:22.816341 #9259]  INFO -- : Executing: select * from films where id = 32
+I, [2014-02-03T13:56:22.816918 #9259]  INFO -- : Executing: update films set name = Persona, director = Ingmar Bergman, year = 1967, country = Sweden where id = 32
+I, [2014-02-03T13:56:22.825798 #9251]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:56:22.827001 #9251]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T13:56:22.898486 #9261]  INFO -- : Executing: select * from films where id = 33
+I, [2014-02-03T13:56:22.898994 #9261]  INFO -- : Executing: update films set name = Persona, director = Ingmar Bergman, year = 1966, country = Sweden where id = 33
+I, [2014-02-03T13:56:22.907483 #9251]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:56:47.777030 #9264]  INFO -- : Executing: select * from films where id = 218903123980123
+I, [2014-02-03T13:56:47.783098 #9263]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:56:47.784665 #9263]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T13:56:47.854903 #9265]  INFO -- : Executing: select * from films where id = 34
+I, [2014-02-03T13:56:47.855530 #9265]  INFO -- : Executing: update films set name = Persona, director = Ingmar Bergman, year = 1966, country = Sweden where id = 34
+I, [2014-02-03T13:56:47.882847 #9263]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:56:47.883968 #9263]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T13:56:47.957736 #9269]  INFO -- : Executing: select * from films where id = 35
+I, [2014-02-03T13:56:47.958343 #9269]  INFO -- : Executing: update films set name = Persona, director = Ingmar Bergman, year = 0, country = Sweden where id = 35
+I, [2014-02-03T13:56:47.966719 #9263]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:56:47.968017 #9263]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T13:56:48.038317 #9271]  INFO -- : Executing: select * from films where id = 36
+I, [2014-02-03T13:56:48.038973 #9271]  INFO -- : Executing: update films set name = Persona, director = Ingmar Bergman, year = 1966, country = Sweden where id = 36
+I, [2014-02-03T13:56:48.047774 #9263]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:56:48.048935 #9263]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T13:56:48.117354 #9273]  INFO -- : Executing: select * from films where id = 37
+I, [2014-02-03T13:56:48.117945 #9273]  INFO -- : Executing: update films set name = Persona, director = Ingmar Bergman, year = 1967, country = Sweden where id = 37
+I, [2014-02-03T13:56:48.127185 #9263]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:58:00.724640 #9276]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T13:58:00.811162 #9277]  INFO -- : Executing: select * from films where id = 38
+I, [2014-02-03T13:58:00.811719 #9277]  INFO -- : Executing: update films set name = Persona, director = Ingmar Bergman, year = 1967, country = Sweden where id = 38
+I, [2014-02-03T13:58:00.839522 #9276]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:58:00.840752 #9276]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T13:58:00.906885 #9281]  INFO -- : Executing: select * from films where id = 39
+I, [2014-02-03T13:58:00.907397 #9281]  INFO -- : Executing: update films set name = Persona, director = Ingmar Bergman, year = 0, country = Sweden where id = 39
+I, [2014-02-03T13:58:00.919179 #9276]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:58:00.920272 #9276]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T13:58:00.990485 #9283]  INFO -- : Executing: select * from films where id = 40
+I, [2014-02-03T13:58:00.990981 #9283]  INFO -- : Executing: update films set name = Persona, director = Ingmar Bergman, year = 1966, country = Sweden where id = 40
+I, [2014-02-03T13:58:00.999502 #9276]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:58:01.075296 #9285]  INFO -- : Executing: select * from films where id = 218903123980123
+I, [2014-02-03T13:58:01.085799 #9276]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:58:01.086942 #9276]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T13:58:01.156575 #9287]  INFO -- : Executing: select * from films where id = 41
+I, [2014-02-03T13:58:01.157161 #9287]  INFO -- : Executing: update films set name = Persona, director = Ingmar Bergman, year = 1966, country = Sweden where id = 41
+I, [2014-02-03T13:58:01.165753 #9276]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:58:14.316827 #9294]  INFO -- : Executing: select * from films where id = 218903123980123
+I, [2014-02-03T13:58:14.324607 #9293]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:58:14.326600 #9293]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T13:58:14.386419 #9295]  INFO -- : Executing: select * from films where id = 42
+I, [2014-02-03T13:58:14.387055 #9295]  INFO -- : Executing: update films set name = Persona, director = Ingmar Bergman, year = 1966, country = Sweden where id = 42
+I, [2014-02-03T13:58:14.416110 #9293]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:58:14.417363 #9293]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T13:58:14.488717 #9299]  INFO -- : Executing: select * from films where id = 43
+I, [2014-02-03T13:58:14.489203 #9299]  INFO -- : Executing: update films set name = Persona, director = Ingmar Bergman, year = 1966, country = Sweden where id = 43
+I, [2014-02-03T13:58:14.497586 #9293]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:58:14.498804 #9293]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T13:58:14.564098 #9301]  INFO -- : Executing: select * from films where id = 44
+I, [2014-02-03T13:58:14.564608 #9301]  INFO -- : Executing: update films set name = Persona, director = Ingmar Bergman, year = 0, country = Sweden where id = 44
+I, [2014-02-03T13:58:14.572727 #9293]  INFO -- : Executing: delete from films
+I, [2014-02-03T13:58:14.573734 #9293]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T13:58:14.644385 #9303]  INFO -- : Executing: select * from films where id = 45
+I, [2014-02-03T13:58:14.645058 #9303]  INFO -- : Executing: update films set name = Persona, director = Ingmar Bergman, year = 1967, country = Sweden where id = 45
+I, [2014-02-03T13:58:14.654105 #9293]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:00:19.793319 #9310]  INFO -- : Executing: select * from films where id = 218903123980123
+I, [2014-02-03T14:00:19.798014 #9309]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:00:19.800653 #9309]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:00:19.867586 #9311]  INFO -- : Executing: select * from films where id = 46
+I, [2014-02-03T14:00:19.868301 #9311]  INFO -- : Executing: update films set name = Persona, director = Ingmar Bergman, year = 1967, country = Sweden where id = 46
+I, [2014-02-03T14:00:19.894839 #9309]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:00:19.896054 #9309]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:00:19.963581 #9315]  INFO -- : Executing: select * from films where id = 47
+I, [2014-02-03T14:00:19.964062 #9315]  INFO -- : Executing: update films set name = Persona, director = Ingmar Bergman, year = 1966, country = Sweden where id = 47
+I, [2014-02-03T14:00:19.972416 #9309]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:00:19.973588 #9309]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:00:20.043557 #9317]  INFO -- : Executing: select * from films where id = 48
+I, [2014-02-03T14:00:20.044063 #9317]  INFO -- : Executing: update films set name = Persona, director = Ingmar Bergman, year = 0, country = Sweden where id = 48
+I, [2014-02-03T14:00:20.052619 #9309]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:00:20.053779 #9309]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:00:20.120980 #9319]  INFO -- : Executing: select * from films where id = 49
+I, [2014-02-03T14:00:20.121568 #9319]  INFO -- : Executing: update films set name = Persona, director = Ingmar Bergman, year = 1966, country = Sweden where id = 49
+I, [2014-02-03T14:00:20.130138 #9309]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:01:53.827605 #9326]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:01:53.906925 #9327]  INFO -- : Executing: select * from films where id = 50
+I, [2014-02-03T14:01:53.907435 #9327]  INFO -- : Executing: update films set name = Persona, director = Ingmar Bergman, year = 0, country = Sweden where id = 50
+I, [2014-02-03T14:01:53.934358 #9326]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:01:53.935545 #9326]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:01:54.000953 #9331]  INFO -- : Executing: select * from films where id = 51
+I, [2014-02-03T14:01:54.001437 #9331]  INFO -- : Executing: update films set name = Persona, director = Ingmar Bergman, year = 1966, country = Sweden where id = 51
+I, [2014-02-03T14:01:54.011521 #9326]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:01:54.012488 #9326]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:01:54.082677 #9333]  INFO -- : Executing: select * from films where id = 52
+I, [2014-02-03T14:01:54.083218 #9333]  INFO -- : Executing: update films set name = Persona, director = Ingmar Bergman, year = 1966, country = Sweden where id = 52
+I, [2014-02-03T14:01:54.091444 #9326]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:01:54.092571 #9326]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:01:54.166661 #9335]  INFO -- : Executing: select * from films where id = 53
+I, [2014-02-03T14:01:54.167292 #9335]  INFO -- : Executing: update films set name = Persona, director = Ingmar Bergman, year = 1967, country = Sweden where id = 53
+I, [2014-02-03T14:01:54.176898 #9326]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:01:54.246868 #9337]  INFO -- : Executing: select * from films where id = 218903123980123
+I, [2014-02-03T14:01:54.250632 #9326]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:02:03.986484 #9338]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:02:04.062529 #9338]  INFO -- : Executing: select count(id) from films
+I, [2014-02-03T14:02:04.062963 #9338]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:02:04.138402 #9338]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:02:04.205660 #9338]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:02:04.274610 #9338]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:02:04.344770 #9338]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:02:04.415509 #9345]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:02:04.420214 #9338]  INFO -- : Executing: SELECT name, director, year, country FROM films
+I, [2014-02-03T14:02:04.420637 #9338]  INFO -- : Executing: select count(id) from films
+I, [2014-02-03T14:02:04.420797 #9338]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:02:04.485760 #9338]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:02:04.556675 #9347]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:02:04.561466 #9338]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:07:51.812540 #9360]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:07:51.818641 #9360]  INFO -- : Executing: insert into films(name, director, year, country) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany')
+I, [2014-02-03T14:07:51.819523 #9360]  INFO -- : Executing: insert into films(name, director, year, country) values('Irma Vep', 'Olivier Assayas', 1996, 'France')
+I, [2014-02-03T14:07:51.888984 #9361]  INFO -- : Executing: select * from films order by name ASC
+I, [2014-02-03T14:07:51.918309 #9360]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:09:03.529918 #9366]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:09:03.535770 #9366]  INFO -- : Executing: insert into films(name, director, year, country) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany')
+I, [2014-02-03T14:09:03.536663 #9366]  INFO -- : Executing: insert into films(name, director, year, country) values('Irma Vep', 'Olivier Assayas', 1996, 'France')
+I, [2014-02-03T14:09:03.606484 #9367]  INFO -- : Executing: select * from films order by name ASC
+I, [2014-02-03T14:09:03.636152 #9366]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:09:23.727238 #9371]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:09:23.733309 #9371]  INFO -- : Executing: insert into films(name, director, year, country) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany')
+I, [2014-02-03T14:09:23.734360 #9371]  INFO -- : Executing: insert into films(name, director, year, country) values('Irma Vep', 'Olivier Assayas', 1996, 'France')
+I, [2014-02-03T14:09:23.803084 #9372]  INFO -- : Executing: select * from films order by name ASC
+I, [2014-02-03T14:09:23.834110 #9371]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:09:58.020019 #9376]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:09:58.025877 #9376]  INFO -- : Executing: insert into films(name, director, year, country) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany')
+I, [2014-02-03T14:09:58.026821 #9376]  INFO -- : Executing: insert into films(name, director, year, country) values('Irma Vep', 'Olivier Assayas', 1996, 'France')
+I, [2014-02-03T14:09:58.099803 #9377]  INFO -- : Executing: select * from films order by name ASC
+I, [2014-02-03T14:09:58.127810 #9376]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:10:40.349076 #9381]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:10:40.354936 #9381]  INFO -- : Executing: insert into films(name, director, year, country) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany')
+I, [2014-02-03T14:10:40.355823 #9381]  INFO -- : Executing: insert into films(name, director, year, country) values('Irma Vep', 'Olivier Assayas', 1996, 'France')
+I, [2014-02-03T14:10:40.429460 #9382]  INFO -- : Executing: select * from films order by name ASC
+I, [2014-02-03T14:10:40.459842 #9381]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:11:25.527416 #9386]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:11:25.533253 #9386]  INFO -- : Executing: insert into films(name, director, year, country) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany')
+I, [2014-02-03T14:11:25.534155 #9386]  INFO -- : Executing: insert into films(name, director, year, country) values('Irma Vep', 'Olivier Assayas', 1996, 'France')
+I, [2014-02-03T14:11:25.609028 #9387]  INFO -- : Executing: select * from films order by name ASC
+I, [2014-02-03T14:11:25.636994 #9386]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:11:35.362897 #9391]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:11:35.369001 #9391]  INFO -- : Executing: insert into films(name, director, year, country) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany')
+I, [2014-02-03T14:11:35.369950 #9391]  INFO -- : Executing: insert into films(name, director, year, country) values('Irma Vep', 'Olivier Assayas', 1996, 'France')
+I, [2014-02-03T14:11:35.438371 #9392]  INFO -- : Executing: select * from films order by name ASC
+I, [2014-02-03T14:11:35.465165 #9391]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:11:54.126839 #9397]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:11:54.132776 #9397]  INFO -- : Executing: insert into films(name, director, year, country) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany')
+I, [2014-02-03T14:11:54.133727 #9397]  INFO -- : Executing: insert into films(name, director, year, country) values('Irma Vep', 'Olivier Assayas', 1996, 'France')
+I, [2014-02-03T14:11:54.202569 #9398]  INFO -- : Executing: select * from films order by name ASC
+I, [2014-02-03T14:11:54.232428 #9397]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:12:41.878188 #9403]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:12:41.884016 #9403]  INFO -- : Executing: insert into films(name, director, year, country) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany')
+I, [2014-02-03T14:12:41.884979 #9403]  INFO -- : Executing: insert into films(name, director, year, country) values('Irma Vep', 'Olivier Assayas', 1996, 'France')
+I, [2014-02-03T14:12:41.956234 #9404]  INFO -- : Executing: select * from films order by name ASC
+I, [2014-02-03T14:12:41.985906 #9403]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:13:05.249489 #9408]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:13:05.255063 #9408]  INFO -- : Executing: insert into films(name, director, year, country) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany')
+I, [2014-02-03T14:13:05.255890 #9408]  INFO -- : Executing: insert into films(name, director, year, country) values('Irma Vep', 'Olivier Assayas', 1996, 'France')
+I, [2014-02-03T14:13:05.322831 #9409]  INFO -- : Executing: select * from films order by name ASC
+I, [2014-02-03T14:13:05.352172 #9408]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:13:16.985906 #9413]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:13:16.991989 #9413]  INFO -- : Executing: insert into films(name, director, year, country) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany')
+I, [2014-02-03T14:13:16.993022 #9413]  INFO -- : Executing: insert into films(name, director, year, country) values('Irma Vep', 'Olivier Assayas', 1996, 'France')
+I, [2014-02-03T14:13:17.066230 #9414]  INFO -- : Executing: select * from films order by name ASC
+I, [2014-02-03T14:13:17.096993 #9413]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:13:53.215851 #9418]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:13:53.221711 #9418]  INFO -- : Executing: insert into films(name, director, year, country) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany')
+I, [2014-02-03T14:13:53.222602 #9418]  INFO -- : Executing: insert into films(name, director, year, country) values('Irma Vep', 'Olivier Assayas', 1996, 'France')
+I, [2014-02-03T14:13:53.293267 #9419]  INFO -- : Executing: select * from films order by name ASC
+I, [2014-02-03T14:13:53.322392 #9418]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:14:07.659681 #9423]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:14:07.661844 #9423]  INFO -- : Executing: insert into films(name, director, year, country) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany')
+I, [2014-02-03T14:14:07.662534 #9423]  INFO -- : Executing: insert into films(name, director, year, country) values('Irma Vep', 'Olivier Assayas', 1996, 'France')
+I, [2014-02-03T14:14:07.735214 #9424]  INFO -- : Executing: select * from films order by name ASC
+I, [2014-02-03T14:14:07.765851 #9423]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:14:16.730194 #9428]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:14:16.736274 #9428]  INFO -- : Executing: insert into films(name, director, year, country) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany')
+I, [2014-02-03T14:14:16.737326 #9428]  INFO -- : Executing: insert into films(name, director, year, country) values('Irma Vep', 'Olivier Assayas', 1996, 'France')
+I, [2014-02-03T14:14:16.807024 #9429]  INFO -- : Executing: select * from films order by name ASC
+I, [2014-02-03T14:14:16.836883 #9428]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:15:10.311272 #9434]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:15:10.317358 #9434]  INFO -- : Executing: insert into films(name, director, year, country) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany')
+I, [2014-02-03T14:15:10.318439 #9434]  INFO -- : Executing: insert into films(name, director, year, country) values('Irma Vep', 'Olivier Assayas', 1996, 'France')
+I, [2014-02-03T14:15:10.385776 #9434]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:15:18.231130 #9439]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:15:18.237089 #9439]  INFO -- : Executing: insert into films(name, director, year, country) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany')
+I, [2014-02-03T14:15:18.238095 #9439]  INFO -- : Executing: insert into films(name, director, year, country) values('Irma Vep', 'Olivier Assayas', 1996, 'France')
+I, [2014-02-03T14:15:18.310201 #9439]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:15:25.935830 #9444]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:15:25.941730 #9444]  INFO -- : Executing: insert into films(name, director, year, country) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany')
+I, [2014-02-03T14:15:25.942793 #9444]  INFO -- : Executing: insert into films(name, director, year, country) values('Irma Vep', 'Olivier Assayas', 1996, 'France')
+I, [2014-02-03T14:15:26.016316 #9445]  INFO -- : Executing: select * from films order by name ASC
+I, [2014-02-03T14:15:26.043604 #9444]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:15:37.823555 #9449]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:15:37.829604 #9449]  INFO -- : Executing: insert into films(name, director, year, country) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany')
+I, [2014-02-03T14:15:37.830661 #9449]  INFO -- : Executing: insert into films(name, director, year, country) values('Irma Vep', 'Olivier Assayas', 1996, 'France')
+I, [2014-02-03T14:15:37.902685 #9450]  INFO -- : Executing: select * from films order by name ASC
+I, [2014-02-03T14:15:37.929180 #9449]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:15:53.158260 #9454]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:15:53.164190 #9454]  INFO -- : Executing: insert into films(name, director, year, country) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany')
+I, [2014-02-03T14:15:53.165183 #9454]  INFO -- : Executing: insert into films(name, director, year, country) values('Irma Vep', 'Olivier Assayas', 1996, 'France')
+I, [2014-02-03T14:15:53.238434 #9455]  INFO -- : Executing: select * from films order by name ASC
+I, [2014-02-03T14:15:53.268382 #9454]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:16:02.053705 #9459]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:16:02.059551 #9459]  INFO -- : Executing: insert into films(name, director, year, country) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany')
+I, [2014-02-03T14:16:02.060405 #9459]  INFO -- : Executing: insert into films(name, director, year, country) values('Irma Vep', 'Olivier Assayas', 1996, 'France')
+I, [2014-02-03T14:16:02.128387 #9460]  INFO -- : Executing: select * from films order by name ASC
+I, [2014-02-03T14:16:02.158283 #9459]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:16:15.918041 #9464]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:16:15.924119 #9464]  INFO -- : Executing: insert into films(name, director, year, country) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany')
+I, [2014-02-03T14:16:15.925156 #9464]  INFO -- : Executing: insert into films(name, director, year, country) values('Irma Vep', 'Olivier Assayas', 1996, 'France')
+I, [2014-02-03T14:16:15.991856 #9465]  INFO -- : Executing: select * from films order by name ASC
+I, [2014-02-03T14:16:16.021106 #9464]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:19:42.954966 #9471]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:19:43.034522 #9472]  INFO -- : Executing: select * from films where id = 119
+I, [2014-02-03T14:19:43.035023 #9472]  INFO -- : Executing: update films set name = Persona, director = Ingmar Bergman, year = 1967, country = Sweden where id = 119
+I, [2014-02-03T14:19:43.065617 #9471]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:19:43.066637 #9471]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:19:43.131472 #9476]  INFO -- : Executing: select * from films where id = 120
+I, [2014-02-03T14:19:43.131985 #9476]  INFO -- : Executing: update films set name = Persona, director = Ingmar Bergman, year = 0, country = Sweden where id = 120
+I, [2014-02-03T14:19:43.143182 #9471]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:19:43.144094 #9471]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:19:43.209014 #9478]  INFO -- : Executing: select * from films where id = 121
+I, [2014-02-03T14:19:43.209510 #9478]  INFO -- : Executing: update films set name = Persona, director = Ingmar Bergman, year = 1966, country = Sweden where id = 121
+I, [2014-02-03T14:19:43.217918 #9471]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:19:43.219024 #9471]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:19:43.290518 #9480]  INFO -- : Executing: select * from films where id = 122
+I, [2014-02-03T14:19:43.291130 #9480]  INFO -- : Executing: update films set name = Persona, director = Ingmar Bergman, year = 1966, country = Sweden where id = 122
+I, [2014-02-03T14:19:43.300466 #9471]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:19:43.365668 #9482]  INFO -- : Executing: select * from films where id = 218903123980123
+I, [2014-02-03T14:19:43.369361 #9471]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:23:06.880378 #9484]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:23:06.949491 #9485]  INFO -- : Executing: select * from films where id = 123
+I, [2014-02-03T14:23:06.950195 #9485]  INFO -- : Executing: update films set name = Persona, director = Ingmar Bergman, year = 1966, country = Sweden where id = 123
+I, [2014-02-03T14:23:06.980151 #9484]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:23:06.981368 #9484]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:23:07.046537 #9489]  INFO -- : Executing: select * from films where id = 124
+I, [2014-02-03T14:23:07.047056 #9489]  INFO -- : Executing: update films set name = Persona, director = Ingmar Bergman, year = 0, country = Sweden where id = 124
+I, [2014-02-03T14:23:07.058359 #9484]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:23:07.059446 #9484]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:23:07.126438 #9491]  INFO -- : Executing: select * from films where id = 125
+I, [2014-02-03T14:23:07.126944 #9491]  INFO -- : Executing: update films set name = Persona, director = Ingmar Bergman, year = 1966, country = Sweden where id = 125
+I, [2014-02-03T14:23:07.135292 #9484]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:23:07.199539 #9493]  INFO -- : Executing: select * from films where id = 218903123980123
+I, [2014-02-03T14:23:07.203347 #9484]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:23:07.204601 #9484]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:23:07.268971 #9494]  INFO -- : Executing: select * from films where id = 126
+I, [2014-02-03T14:23:07.269457 #9494]  INFO -- : Executing: update films set name = Persona, director = Ingmar Bergman, year = 1967, country = Sweden where id = 126
+I, [2014-02-03T14:23:07.278066 #9484]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:23:15.507012 #9498]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:23:15.586510 #9499]  INFO -- : Executing: select * from films where id = 127
+I, [2014-02-03T14:23:15.587048 #9499]  INFO -- : Executing: update films set name = Persona, director = Ingmar Bergman, year = 0, country = Sweden where id = 127
+I, [2014-02-03T14:23:15.613330 #9498]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:23:15.614365 #9498]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:23:15.680215 #9503]  INFO -- : Executing: select * from films where id = 128
+I, [2014-02-03T14:23:15.680709 #9503]  INFO -- : Executing: update films set name = Persona, director = Ingmar Bergman, year = 1966, country = Sweden where id = 128
+I, [2014-02-03T14:23:15.691470 #9498]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:23:15.692482 #9498]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:23:15.763201 #9505]  INFO -- : Executing: select * from films where id = 129
+I, [2014-02-03T14:23:15.763716 #9505]  INFO -- : Executing: update films set name = Persona, director = Ingmar Bergman, year = 1967, country = Sweden where id = 129
+I, [2014-02-03T14:23:15.772210 #9498]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:23:15.843047 #9507]  INFO -- : Executing: select * from films where id = 218903123980123
+I, [2014-02-03T14:23:15.847661 #9498]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:23:15.849078 #9498]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:23:15.911388 #9508]  INFO -- : Executing: select * from films where id = 130
+I, [2014-02-03T14:23:15.911886 #9508]  INFO -- : Executing: update films set name = Persona, director = Ingmar Bergman, year = 1966, country = Sweden where id = 130
+I, [2014-02-03T14:23:15.920636 #9498]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:23:26.100512 #9510]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:23:26.292025 #9515]  INFO -- : Executing: select * from films where id = 131
+I, [2014-02-03T14:23:29.342512 #9515]  INFO -- : Executing: update films set name = Persona, director = Ingmar Bergman, year = 0, country = Sweden where id = 131
+I, [2014-02-03T14:23:29.367665 #9510]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:23:29.368708 #9510]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:23:29.566934 #9523]  INFO -- : Executing: select * from films where id = 132
+I, [2014-02-03T14:23:31.058221 #9523]  INFO -- : Executing: update films set name = Persona, director = Ingmar Bergman, year = 1966, country = Sweden where id = 132
+I, [2014-02-03T14:23:31.073669 #9510]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:23:31.268473 #9529]  INFO -- : Executing: select * from films where id = 218903123980123
+I, [2014-02-03T14:23:31.276909 #9510]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:23:31.278340 #9510]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:23:31.465099 #9534]  INFO -- : Executing: select * from films where id = 133
+I, [2014-02-03T14:23:32.042283 #9534]  INFO -- : Executing: update films set name = Persona, director = Ingmar Bergman, year = 1966, country = Sweden where id = 133
+I, [2014-02-03T14:23:32.057543 #9510]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:23:32.062252 #9510]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:23:32.255668 #9540]  INFO -- : Executing: select * from films where id = 134
+I, [2014-02-03T14:23:32.914129 #9540]  INFO -- : Executing: update films set name = Persona, director = Ingmar Bergman, year = 1967, country = Sweden where id = 134
+I, [2014-02-03T14:23:32.929891 #9510]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:23:36.946421 #9546]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:23:37.141691 #9551]  INFO -- : Executing: select * from films where id = 135
+I, [2014-02-03T14:24:12.453336 #9551]  INFO -- : Executing: update films set name = Persona, director = Ingmar Bergman, year = 0, country = Sweden where id = 135
+I, [2014-02-03T14:24:12.479534 #9546]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:24:12.480649 #9546]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:24:12.668654 #9560]  INFO -- : Executing: select * from films where id = 136
+I, [2014-02-03T14:24:14.200800 #9560]  INFO -- : Executing: update films set name = Persona, director = Ingmar Bergman, year = 1966, country = Sweden where id = 136
+I, [2014-02-03T14:24:14.218080 #9546]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:24:14.411725 #9566]  INFO -- : Executing: select * from films where id = 218903123980123
+I, [2014-02-03T14:24:14.420530 #9546]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:24:14.421921 #9546]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:24:14.611480 #9571]  INFO -- : Executing: select * from films where id = 137
+I, [2014-02-03T14:24:15.991969 #9571]  INFO -- : Executing: update films set name = Persona, director = Ingmar Bergman, year = 1966, country = Sweden where id = 137
+I, [2014-02-03T14:24:16.008602 #9546]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:24:16.013208 #9546]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:24:16.204810 #9577]  INFO -- : Executing: select * from films where id = 138
+I, [2014-02-03T14:24:17.267091 #9577]  INFO -- : Executing: update films set name = Persona, director = Ingmar Bergman, year = 1967, country = Sweden where id = 138
+I, [2014-02-03T14:24:17.281800 #9546]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:26:17.446460 #9583]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:26:17.642933 #9588]  INFO -- : Executing: select * from films where id = 139
+I, [2014-02-03T14:26:17.643438 #9588]  INFO -- : Executing: update films set name = Persona, director = 'Ingmar Bergman', year = 0, country = Sweden where id = 139
+I, [2014-02-03T14:26:17.663791 #9583]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:26:17.664959 #9583]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:26:17.855512 #9596]  INFO -- : Executing: select * from films where id = 140
+I, [2014-02-03T14:26:17.856040 #9596]  INFO -- : Executing: update films set name = Persona, director = 'Ingmar Bergman', year = 1966, country = Sweden where id = 140
+I, [2014-02-03T14:26:17.869957 #9583]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:26:17.871008 #9583]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:26:18.066242 #9602]  INFO -- : Executing: select * from films where id = 141
+I, [2014-02-03T14:26:18.066749 #9602]  INFO -- : Executing: update films set name = Persona, director = 'Ingmar Bergman', year = 1967, country = Sweden where id = 141
+I, [2014-02-03T14:26:18.083604 #9583]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:26:18.084840 #9583]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:26:18.276946 #9608]  INFO -- : Executing: select * from films where id = 142
+I, [2014-02-03T14:26:18.277450 #9608]  INFO -- : Executing: update films set name = Persona, director = 'Ingmar Bergman', year = 1966, country = Sweden where id = 142
+I, [2014-02-03T14:26:18.290998 #9583]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:26:18.490001 #9614]  INFO -- : Executing: select * from films where id = 218903123980123
+I, [2014-02-03T14:26:18.498506 #9583]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:26:57.221768 #9619]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:26:57.439814 #9624]  INFO -- : Executing: select * from films where id = 143
+I, [2014-02-03T14:26:57.440315 #9624]  INFO -- : Executing: update films set name = Persona, director = 'Ingmar Bergman', year = 1966, country = 'Sweden' where id = 143
+I, [2014-02-03T14:26:57.461855 #9619]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:26:57.462986 #9619]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:26:57.659574 #9632]  INFO -- : Executing: select * from films where id = 144
+I, [2014-02-03T14:26:57.660096 #9632]  INFO -- : Executing: update films set name = Persona, director = 'Ingmar Bergman', year = 1967, country = 'Sweden' where id = 144
+I, [2014-02-03T14:26:57.674887 #9619]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:26:57.676055 #9619]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:26:57.875149 #9638]  INFO -- : Executing: select * from films where id = 145
+I, [2014-02-03T14:26:57.875652 #9638]  INFO -- : Executing: update films set name = Persona, director = 'Ingmar Bergman', year = 0, country = 'Sweden' where id = 145
+I, [2014-02-03T14:26:57.889564 #9619]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:26:57.890706 #9619]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:26:58.089849 #9644]  INFO -- : Executing: select * from films where id = 146
+I, [2014-02-03T14:26:58.090340 #9644]  INFO -- : Executing: update films set name = Persona, director = 'Ingmar Bergman', year = 1966, country = 'Sweden' where id = 146
+I, [2014-02-03T14:26:58.103706 #9619]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:26:58.309913 #9650]  INFO -- : Executing: select * from films where id = 218903123980123
+I, [2014-02-03T14:26:58.318649 #9619]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:27:21.609501 #9656]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:27:21.816400 #9661]  INFO -- : Executing: select * from films where id = 147
+I, [2014-02-03T14:27:21.816942 #9661]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 1967, country = 'Sweden' where id = 147
+I, [2014-02-03T14:27:21.840522 #9656]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:27:21.841605 #9656]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:27:22.032021 #9669]  INFO -- : Executing: select * from films where id = 148
+I, [2014-02-03T14:27:22.032524 #9669]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 0, country = 'Sweden' where id = 148
+I, [2014-02-03T14:27:22.047205 #9656]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:27:22.048420 #9656]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:27:22.242773 #9675]  INFO -- : Executing: select * from films where id = 149
+I, [2014-02-03T14:27:22.243277 #9675]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 1966, country = 'Sweden' where id = 149
+I, [2014-02-03T14:27:22.257153 #9656]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:27:22.444653 #9681]  INFO -- : Executing: select * from films where id = 218903123980123
+I, [2014-02-03T14:27:22.453128 #9656]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:27:22.454289 #9656]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:27:22.659390 #9686]  INFO -- : Executing: select * from films where id = 150
+I, [2014-02-03T14:27:22.660072 #9686]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 1966, country = 'Sweden' where id = 150
+I, [2014-02-03T14:27:22.675159 #9656]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:35:17.285375 #9702]  INFO -- : Executing: select * from films where id = 218903123980123
+I, [2014-02-03T14:35:17.295578 #9697]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:35:17.298295 #9697]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:35:17.490061 #9707]  INFO -- : Executing: select * from films where id = 151
+I, [2014-02-03T14:35:17.490531 #9707]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 1966, country = 'Sweden' where id = 151
+I, [2014-02-03T14:35:17.510809 #9697]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:35:17.511877 #9697]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:35:17.701542 #9715]  INFO -- : Executing: select * from films where id = 152
+I, [2014-02-03T14:35:17.702044 #9715]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 1967, country = 'Sweden' where id = 152
+I, [2014-02-03T14:35:17.718183 #9697]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:35:17.719393 #9697]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:35:17.909714 #9721]  INFO -- : Executing: select * from films where id = 153
+I, [2014-02-03T14:35:17.910215 #9721]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 1966, country = 'Sweden' where id = 153
+I, [2014-02-03T14:35:17.926862 #9697]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:35:17.928058 #9697]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:35:18.116025 #9727]  INFO -- : Executing: select * from films where id = 154
+I, [2014-02-03T14:35:18.116505 #9727]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 0, country = 'Sweden' where id = 154
+I, [2014-02-03T14:35:18.132161 #9697]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:35:47.635383 #9733]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:35:47.828357 #9738]  INFO -- : Executing: select * from films where id = 155
+I, [2014-02-03T14:35:47.828853 #9738]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 1966, country = 'Sweden' where id = 155
+I, [2014-02-03T14:35:47.851778 #9733]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:35:47.853026 #9733]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:35:48.040663 #9746]  INFO -- : Executing: select * from films where id = 156
+I, [2014-02-03T14:35:48.041159 #9746]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 1966, country = 'Sweden' where id = 156
+I, [2014-02-03T14:35:48.056160 #9733]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:35:48.248061 #9752]  INFO -- : Executing: select * from films where id = 218903123980123
+I, [2014-02-03T14:35:48.256319 #9733]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:35:48.257765 #9733]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:35:48.451238 #9757]  INFO -- : Executing: select * from films where id = 157
+I, [2014-02-03T14:35:48.451739 #9757]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 0, country = 'Sweden' where id = 157
+I, [2014-02-03T14:35:48.468760 #9733]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:35:48.469872 #9733]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:35:48.660999 #9763]  INFO -- : Executing: select * from films where id = 158
+I, [2014-02-03T14:35:48.661555 #9763]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 1967, country = 'Sweden' where id = 158
+I, [2014-02-03T14:35:48.670347 #9733]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:36:18.899343 #9770]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:36:19.100281 #9775]  INFO -- : Executing: select * from films where id = 159
+I, [2014-02-03T14:36:19.100786 #9775]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 1966, country = 'Sweden' where id = 159
+I, [2014-02-03T14:36:19.110113 #9770]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:36:19.300647 #9780]  INFO -- : Executing: select * from films where id = 218903123980123
+I, [2014-02-03T14:36:19.309159 #9770]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:36:19.310664 #9770]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:36:19.504136 #9785]  INFO -- : Executing: select * from films where id = 160
+I, [2014-02-03T14:36:19.504633 #9785]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 0, country = 'Sweden' where id = 160
+I, [2014-02-03T14:36:19.528367 #9770]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:36:19.529541 #9770]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:36:19.719553 #9793]  INFO -- : Executing: select * from films where id = 161
+I, [2014-02-03T14:36:19.720053 #9793]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 1966, country = 'Sweden' where id = 161
+I, [2014-02-03T14:36:19.736748 #9770]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:36:19.737909 #9770]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:36:19.935361 #9799]  INFO -- : Executing: select * from films where id = 162
+I, [2014-02-03T14:36:19.935875 #9799]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 1967, country = 'Sweden' where id = 162
+I, [2014-02-03T14:36:19.947816 #9770]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:37:35.799892 #9809]  INFO -- : Executing: select * from films where id = 218903123980123
+I, [2014-02-03T14:37:35.810017 #9804]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:37:35.812668 #9804]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:37:36.002041 #9814]  INFO -- : Executing: select * from films where id = 163
+I, [2014-02-03T14:37:36.002566 #9814]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 1967, country = 'Sweden' where id = 163
+I, [2014-02-03T14:37:36.013925 #9804]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:37:36.015084 #9804]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:37:36.203982 #9819]  INFO -- : Executing: select * from films where id = 164
+I, [2014-02-03T14:37:36.204498 #9819]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 0, country = 'Sweden' where id = 164
+I, [2014-02-03T14:37:36.224875 #9804]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:37:36.225942 #9804]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:37:36.428421 #9827]  INFO -- : Executing: select * from films where id = 165
+I, [2014-02-03T14:37:36.428977 #9827]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 1966, country = 'Sweden' where id = 165
+I, [2014-02-03T14:37:36.438900 #9804]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:37:36.440040 #9804]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:37:36.645752 #9832]  INFO -- : Executing: select * from films where id = 166
+I, [2014-02-03T14:37:36.646255 #9832]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 1966, country = 'Sweden' where id = 166
+I, [2014-02-03T14:37:36.658841 #9804]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:43:56.031493 #10033]  INFO -- : Executing: select * from films where id = 218903123980123
+I, [2014-02-03T14:43:56.041317 #10028]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:43:56.042945 #10028]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:43:56.247670 #10038]  INFO -- : Executing: select * from films where id = 167
+I, [2014-02-03T14:43:56.248280 #10038]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 1966, country = 'Sweden' where id = 167
+I, [2014-02-03T14:43:56.259153 #10028]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:43:56.260339 #10028]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:43:56.261300 #10028]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:43:56.457535 #10043]  INFO -- : Executing: select * from films where id = 168
+I, [2014-02-03T14:43:56.458037 #10043]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 1967, country = 'Sweden' where id = 168
+I, [2014-02-03T14:43:56.467261 #10028]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:43:56.468615 #10028]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:43:56.670563 #10048]  INFO -- : Executing: select * from films where id = 169
+I, [2014-02-03T14:43:56.671070 #10048]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 1966, country = 'Sweden' where id = 169
+I, [2014-02-03T14:43:56.680098 #10028]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:44:25.863750 #10053]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:44:26.075693 #10053]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:44:26.279296 #10053]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:44:26.493498 #10053]  INFO -- : Executing: select count(id) from films
+I, [2014-02-03T14:44:26.494168 #10053]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:44:26.695045 #10053]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:44:26.899704 #10053]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:44:27.106205 #10088]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:44:27.119266 #10053]  INFO -- : Executing: SELECT name, director, year, country FROM films
+I, [2014-02-03T14:44:27.119732 #10053]  INFO -- : Executing: select count(id) from films
+I, [2014-02-03T14:44:27.119894 #10053]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:44:27.328833 #10053]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:44:27.531404 #10098]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:44:27.553561 #10053]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:44:48.676925 #10106]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:44:48.891921 #10106]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:44:49.091631 #10106]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:44:49.305725 #10106]  INFO -- : Executing: select count(id) from films
+I, [2014-02-03T14:44:49.306308 #10106]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:44:49.511941 #10131]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:44:49.522012 #10106]  INFO -- : Executing: SELECT name, director, year, country FROM films
+I, [2014-02-03T14:44:49.522504 #10106]  INFO -- : Executing: select count(id) from films
+I, [2014-02-03T14:44:49.522670 #10106]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:44:49.724123 #10136]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:44:49.733254 #10106]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:44:49.940717 #10106]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:44:50.156005 #10106]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:44:50.356986 #10106]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:46:36.249675 #10163]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:46:36.255722 #10163]  INFO -- : Executing: insert into films(name, director, year, country) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany')
+I, [2014-02-03T14:46:36.256811 #10163]  INFO -- : Executing: insert into films(name, director, year, country) values('Irma Vep', 'Olivier Assayas', 1996, 'France')
+I, [2014-02-03T14:46:36.461393 #10168]  INFO -- : Executing: select * from films order by name ASC
+I, [2014-02-03T14:46:36.482084 #10163]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:48:02.460515 #10177]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:48:02.466212 #10177]  INFO -- : Executing: insert into films(name, director, year, country) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany')
+I, [2014-02-03T14:48:02.467159 #10177]  INFO -- : Executing: insert into films(name, director, year, country) values('Irma Vep', 'Olivier Assayas', 1996, 'France')
+I, [2014-02-03T14:48:02.661169 #10182]  INFO -- : Executing: select * from films order by name ASC
+I, [2014-02-03T14:48:02.681920 #10177]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:48:53.885943 #10191]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:48:53.887212 #10191]  INFO -- : Executing: insert into films(name, director, year, country) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany')
+I, [2014-02-03T14:48:53.887880 #10191]  INFO -- : Executing: insert into films(name, director, year, country) values('Irma Vep', 'Olivier Assayas', 1996, 'France')
+I, [2014-02-03T14:48:54.086733 #10196]  INFO -- : Executing: select * from films order by name ASC
+I, [2014-02-03T14:48:54.107517 #10191]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:49:03.876143 #10204]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:49:03.877448 #10204]  INFO -- : Executing: insert into films(name, director, year, country) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany')
+I, [2014-02-03T14:49:03.878103 #10204]  INFO -- : Executing: insert into films(name, director, year, country) values('Irma Vep', 'Olivier Assayas', 1996, 'France')
+I, [2014-02-03T14:49:04.075745 #10209]  INFO -- : Executing: select * from films order by name ASC
+I, [2014-02-03T14:49:04.097133 #10204]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:49:24.751707 #10217]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:49:24.757812 #10217]  INFO -- : Executing: insert into films(name, director, year, country) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany')
+I, [2014-02-03T14:49:24.758937 #10217]  INFO -- : Executing: insert into films(name, director, year, country) values('Irma Vep', 'Olivier Assayas', 1996, 'France')
+I, [2014-02-03T14:49:24.965008 #10222]  INFO -- : Executing: select * from films order by name ASC
+I, [2014-02-03T14:49:24.985181 #10217]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:49:38.558799 #10230]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:49:38.564494 #10230]  INFO -- : Executing: insert into films(name, director, year, country) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany')
+I, [2014-02-03T14:49:38.565570 #10230]  INFO -- : Executing: insert into films(name, director, year, country) values('Irma Vep', 'Olivier Assayas', 1996, 'France')
+I, [2014-02-03T14:49:38.765096 #10235]  INFO -- : Executing: select * from films order by name ASC
+I, [2014-02-03T14:49:38.786133 #10230]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:49:59.548659 #10243]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:49:59.554139 #10243]  INFO -- : Executing: insert into films(name, director, year, country) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany')
+I, [2014-02-03T14:49:59.554933 #10243]  INFO -- : Executing: insert into films(name, director, year, country) values('Irma Vep', 'Olivier Assayas', 1996, 'France')
+I, [2014-02-03T14:49:59.764861 #10248]  INFO -- : Executing: select * from films order by name ASC
+I, [2014-02-03T14:49:59.785348 #10243]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:50:26.728597 #10256]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:50:26.733780 #10256]  INFO -- : Executing: insert into films(name, director, year, country) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany')
+I, [2014-02-03T14:50:26.734711 #10256]  INFO -- : Executing: insert into films(name, director, year, country) values('Irma Vep', 'Olivier Assayas', 1996, 'France')
+I, [2014-02-03T14:50:26.939204 #10261]  INFO -- : Executing: select * from films order by name ASC
+I, [2014-02-03T14:50:26.961994 #10256]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:54:04.238258 #10280]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:54:04.244259 #10280]  INFO -- : Executing: insert into films(name, director, year, country) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany')
+I, [2014-02-03T14:54:04.245343 #10280]  INFO -- : Executing: insert into films(name, director, year, country) values('Irma Vep', 'Olivier Assayas', 1996, 'France')
+I, [2014-02-03T14:54:04.443120 #10285]  INFO -- : Executing: select * from films order by name ASC
+I, [2014-02-03T14:54:04.463651 #10280]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:54:07.019182 #10293]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:54:07.024600 #10293]  INFO -- : Executing: insert into films(name, director, year, country) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany')
+I, [2014-02-03T14:54:07.025382 #10293]  INFO -- : Executing: insert into films(name, director, year, country) values('Irma Vep', 'Olivier Assayas', 1996, 'France')
+I, [2014-02-03T14:54:07.217716 #10298]  INFO -- : Executing: select * from films order by name ASC
+I, [2014-02-03T14:54:07.239734 #10293]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:56:10.072386 #10311]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:56:10.078291 #10311]  INFO -- : Executing: insert into films(name, director, year, country) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany')
+I, [2014-02-03T14:56:10.079205 #10311]  INFO -- : Executing: insert into films(name, director, year, country) values('Irma Vep', 'Olivier Assayas', 1996, 'France')
+I, [2014-02-03T14:56:10.280487 #10316]  INFO -- : Executing: select * from films order by name ASC
+I, [2014-02-03T14:56:10.290051 #10311]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:56:31.453624 #10322]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:56:31.459393 #10322]  INFO -- : Executing: insert into films(name, director, year, country) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany')
+I, [2014-02-03T14:56:31.460273 #10322]  INFO -- : Executing: insert into films(name, director, year, country) values('Irma Vep', 'Olivier Assayas', 1996, 'France')
+I, [2014-02-03T14:56:31.662920 #10327]  INFO -- : Executing: select * from films order by name ASC
+I, [2014-02-03T14:56:31.683830 #10322]  INFO -- : Executing: delete from films
+I, [2014-02-03T14:56:36.238704 #10335]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T14:56:36.244354 #10335]  INFO -- : Executing: insert into films(name, director, year, country) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany')
+I, [2014-02-03T14:56:36.245176 #10335]  INFO -- : Executing: insert into films(name, director, year, country) values('Irma Vep', 'Olivier Assayas', 1996, 'France')
+I, [2014-02-03T14:56:36.446493 #10340]  INFO -- : Executing: select * from films order by name ASC
+I, [2014-02-03T14:56:36.456444 #10335]  INFO -- : Executing: delete from films
+I, [2014-02-03T15:01:35.196281 #10353]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T15:01:35.410032 #10358]  INFO -- : Executing: select * from films where id = 213
+I, [2014-02-03T15:01:35.410717 #10358]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 1966, country = 'Sweden' where id = 213
+I, [2014-02-03T15:01:35.421103 #10353]  INFO -- : Executing: delete from films
+I, [2014-02-03T15:01:35.422239 #10353]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T15:01:35.625759 #10363]  INFO -- : Executing: select * from films where id = 214
+I, [2014-02-03T15:01:35.626361 #10363]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 1967, country = 'Sweden' where id = 214
+I, [2014-02-03T15:01:35.635237 #10353]  INFO -- : Executing: delete from films
+I, [2014-02-03T15:01:35.636581 #10353]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T15:01:35.834273 #10368]  INFO -- : Executing: select * from films where id = 215
+I, [2014-02-03T15:01:35.834799 #10368]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 1966, country = 'Sweden' where id = 215
+I, [2014-02-03T15:01:35.845053 #10353]  INFO -- : Executing: delete from films
+I, [2014-02-03T15:01:35.846506 #10353]  INFO -- : Executing: delete from films
+I, [2014-02-03T15:01:36.042373 #10373]  INFO -- : Executing: select * from films where id = 218903123980123
+I, [2014-02-03T15:01:36.052799 #10353]  INFO -- : Executing: delete from films
+I, [2014-02-03T15:10:06.264548 #10402]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T15:10:06.478040 #10407]  INFO -- : Executing: insert into films(name, director, year, country) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany')
+I, [2014-02-03T15:10:06.691447 #10412]  INFO -- : Executing: insert into films(name, director, year, country) values('Irma Vep', 'Olivier Assayas', 1996, 'France')
+I, [2014-02-03T15:10:06.895282 #10417]  INFO -- : Executing: select films.name from films where name LIKE '%Third%'
+I, [2014-02-03T15:10:06.906211 #10397]  INFO -- : Executing: delete from films
+I, [2014-02-03T15:10:41.874353 #10427]  INFO -- : Executing: insert into films(name, director, year, country) values('Persona', 'Ingmar Bergman', 1966, 'Sweden')
+I, [2014-02-03T15:10:42.083781 #10432]  INFO -- : Executing: insert into films(name, director, year, country) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany')
+I, [2014-02-03T15:10:42.286142 #10437]  INFO -- : Executing: insert into films(name, director, year, country) values('Irma Vep', 'Olivier Assayas', 1996, 'France')
+I, [2014-02-03T15:10:42.493925 #10442]  INFO -- : Executing: select films.name from films where name LIKE '%Third%'
+I, [2014-02-03T15:10:42.503722 #10422]  INFO -- : Executing: delete from films

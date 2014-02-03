@@ -1,9 +1,14 @@
+require 'pry'
 class Film
   attr_accessor :name, :director, :year, :country
   attr_reader :id
 
   def initialize attributes = {}
     update_attributes(attributes)
+  end
+
+  def year=(year)
+    @year = year.to_i
   end
 
   def self.create(attributes = {})
@@ -20,9 +25,9 @@ class Film
   def save
     database = Environment.database_connection
     if id
-      database.execute("update films set name = #{name}, director = #{director}, year = #{year}, country = #{country} where id = #{id}")
+      database.execute("update films set name = '#{name}', director = '#{director}', year = #{year}, country = '#{country}' where id = #{id}")
     else
-      database.execute("insert into films(name, director, year, country) values('#{name}', '#{director}', #{year}, '#{country}'')")
+      database.execute("insert into films(name, director, year, country) values('#{name}', '#{director}', #{year}, '#{country}')")
       @id = database.last_insert_row_id
     end
   end
@@ -56,7 +61,7 @@ class Film
   # end
 
   def to_s
-    "#{name}: #{director} , #{year}, #{country}, id: #{id}"
+    "#{name}: #{director}, #{year}, #{country}, #{id}"
   end
 
   protected

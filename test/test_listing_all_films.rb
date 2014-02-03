@@ -10,9 +10,9 @@ class TestListingFilms < FilmTest
     command = "./filmtracker list"
     expected = <<EOS.chomp
 All Films:
-Persona: director: Ingmar Bergman, year: 1966, country: Sweden, id: #{persona.id}
-The Third Generation: director: Rainer Werner Fassbinder, year: 1975, country: Germany, id: #{the_third_generation.id}
-Irma Vep: director: Olivier Assayas, year: 1996, country: France, id: #{irma_vep.id}
+Irma Vep: Olivier Assayas, 1996, France, #{irma_vep.id}
+Persona: Ingmar Bergman, 1966, Sweden, #{persona.id}
+The Third Generation: Rainer Werner Fassbinder, 1975, Germany, #{the_third_generation.id}
 EOS
     assert_command_output expected, command
   end
