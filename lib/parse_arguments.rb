@@ -30,6 +30,30 @@ class ParseArguments
         options[:environment] = env
       end
 
+      opts.on("--language [LANG]", "The database language") do |lang|
+        options[:language] = lang
+      end
+			
+			opts.on("--distributor [DIST]", "The database distributor") do |dist|
+        options[:distributor] = dist
+      end
+
+			opts.on("--date [DATE]", "The database date") do |date|
+        options[:date] = date
+      end
+
+			opts.on("--rating [RATING]", "The database rating") do |rating|
+        options[:rating] = rating
+      end
+
+			opts.on("--format [FORMAT]", "The database format") do |format|
+        options[:format] = format
+      end
+
+			opts.on("--notes [NOTES]", "The database notes") do |notes|
+        options[:notes] = notes
+      end
+
 		end.parse!
 		options
 	end
@@ -45,6 +69,13 @@ class ParseArguments
 		missing_things << "year" unless options[:year]
 		missing_things << "director" unless options[:director]
 		missing_things << "country of origin" unless options[:country]
+		missing_things << "language" unless options[:language]
+		missing_things << "distributor or type Unknown" unless options[:distributor]
+		missing_things << "date viewed" unless options[:date]
+		missing_things << "rating" unless options[:rating]
+		missing_things << "format" unless options[:format]
+
+
 		unless missing_things.empty?
 		  errors << "You must provide the #{missing_things.join(" and ")} of the film you are adding."  
 		end

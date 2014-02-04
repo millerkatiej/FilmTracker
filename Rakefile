@@ -10,6 +10,12 @@ end
 desc "Run tests"
 task :default => :test
 
+desc 'import data from the given file'
+task :import_data do
+  Environment.environment = "production"
+  require_relative 'lib/importer'
+  Importer.import("data/FilmTracker.csv")
+end
 
 desc "Create the production database setup"
 task :bootstrap_database do
@@ -28,5 +34,5 @@ task :test_prepare do
 end
 
 def create_tables(database_connection)
-	database_connection.execute("CREATE TABLE films (id INTEGER PRIMARY KEY AUTOINCREMENT, name varchar(50), director varchar (50), year integer, country varchar(30))")
+	database_connection.execute("CREATE TABLE films (id INTEGER PRIMARY KEY AUTOINCREMENT, name varchar(50), director varchar (50), year integer, country varchar(30), language varchar(20), distributor varchar(30), date varchar(10), rating integer, format varchar(15), notes varchar(300))")
 end

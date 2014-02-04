@@ -15,14 +15,14 @@ if command == "search"
   puts "What do you want to search for?"
   input = $stdin.gets.chomp
   puts "You asked for: #{input}"
-  statement = "select films.name from films where name LIKE '%#{input}%'"
+  statement = "select * from films where name LIKE '%#{input}%' OR director LIKE '%#{input}%' OR year LIKE '%#{input}%' OR country LIKE '%#{input}%'  OR language LIKE '%#{input}%' OR distributor LIKE '%#{input}%' OR format LIKE '%#{input}%' OR notes LIKE '%#{input}%'"
   results = database.execute(statement)
   puts results
 elsif command == "add"
   error_messages = ParseArguments.validate(options)
   if error_messages.empty?
     film = Film.create(options)
-    puts "You have created a film named #{film.name}, released in #{film.year} and directed by #{film.director}, and from #{film.country}."
+    puts "You have created a film named #{film.name}, released in #{film.year}, directed by #{film.director}, from #{film.country}, in #{film.language}, distributed by #{film.distributor}, viewed on #{film.date}, with a viewing format of #{film.format}, given a personal rating of #{film.rating}, and the following notes: #{film.notes}."
   else
     puts error_messages
   end
@@ -36,7 +36,7 @@ elsif command == "list"
 elsif command == "edit"
   if film = Film.find(options[:id])
     film.update(options)
-    puts "Film #{film.id} is now named #{film.name}, released in #{film.year} and directed by #{film.director}, and from #{film.country}."
+    puts "Film #{film.id} is now named #{film.name}, released in #{film.year}, directed by #{film.director}, from #{film.country}, in #{film.language}, distributed by #{film.distributor}, viewed on #{film.date}, with a viewing format of #{film.format}, given a personal rating of #{film.rating}, and the following notes: #{film.notes}."
   else
     puts "Film #{options[:id]} couldn't be found."
   end

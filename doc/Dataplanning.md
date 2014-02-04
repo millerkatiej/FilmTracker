@@ -8,5 +8,4 @@ Films
 	*date viewed
 	*personal rating
 	*format
-	*previously viewed
 	
