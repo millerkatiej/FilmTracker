@@ -14,10 +14,13 @@ database = Environment.database_connection
 if command == "search"
   puts "What do you want to search for?"
   input = $stdin.gets.chomp
-  puts "You asked for: #{input}"
   statement = "select * from films where name LIKE '%#{input}%' OR director LIKE '%#{input}%' OR year LIKE '%#{input}%' OR country LIKE '%#{input}%'  OR language LIKE '%#{input}%' OR distributor LIKE '%#{input}%' OR format LIKE '%#{input}%' OR notes LIKE '%#{input}%'"
   results = database.execute(statement)
-  puts results
+  if results.empty?
+    puts "Did not find: #{input}"
+  else
+    puts results
+  end
 elsif command == "add"
   error_messages = ParseArguments.validate(options)
   if error_messages.empty?
