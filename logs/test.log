@@ -1,359 +1,217 @@
-I, [2014-02-03T16:31:15.489267 #14113]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:31:15.700382 #14113]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:31:15.893583 #14128]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 9, 'DVD', 'Loved it')
-I, [2014-02-03T16:31:15.903339 #14113]  INFO -- : Executing: SELECT name, director, year, country, language, distributor, date, format, rating, notes FROM films
-I, [2014-02-03T16:31:15.903925 #14113]  INFO -- : Executing: select count(id) from films
-I, [2014-02-03T16:31:15.904128 #14113]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:31:16.120238 #14113]  INFO -- : Executing: select count(id) from films
-I, [2014-02-03T16:31:16.120724 #14113]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:31:16.321301 #14138]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 9, 'DVD', 'Loved it')
-I, [2014-02-03T16:31:16.342901 #14113]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:31:16.560367 #14113]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:31:16.763156 #14113]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:31:16.974826 #14113]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:31:17.188923 #14113]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:35:19.928147 #14181]  INFO -- : Executing: CREATE TABLE films (id INTEGER PRIMARY KEY AUTOINCREMENT, name varchar(50), director varchar (50), year integer, country varchar(30), language varchar(20), distributor varchar(30), date varchar(10), rating integer, format varchar(15), notes varchar(300))
-I, [2014-02-03T16:35:23.553851 #14186]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:35:23.796978 #14186]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:35:24.013760 #14186]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:35:24.224501 #14210]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 9, 'DVD', 'Loved it')
-I, [2014-02-03T16:35:24.247053 #14186]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:35:24.465373 #14186]  INFO -- : Executing: select count(id) from films
-I, [2014-02-03T16:35:24.465814 #14186]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:35:24.683201 #14186]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:35:24.905017 #14186]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:35:25.100347 #14233]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 9, 'DVD', 'Loved it')
-I, [2014-02-03T16:35:25.111926 #14186]  INFO -- : Executing: SELECT name, director, year, country, language, distributor, date, format, rating, notes FROM films
-I, [2014-02-03T16:35:25.117566 #14186]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:35:25.326868 #14186]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:35:55.267107 #14245]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:35:55.487758 #14245]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:35:55.701745 #14245]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:35:55.917570 #14245]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:35:56.120368 #14270]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 9, 'DVD', 'Loved it')
-I, [2014-02-03T16:35:56.131200 #14245]  INFO -- : Executing: SELECT name, director, year, country, language, distributor, date, format, rating, notes FROM films
-I, [2014-02-03T16:35:56.131969 #14245]  INFO -- : Executing: select count(id) from films
-I, [2014-02-03T16:35:56.132227 #14245]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:35:56.347361 #14245]  INFO -- : Executing: select count(id) from films
-I, [2014-02-03T16:35:56.347767 #14245]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:35:56.560316 #14245]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:35:56.761075 #14285]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 9, 'DVD', 'Loved it')
-I, [2014-02-03T16:35:56.783980 #14245]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:35:57.000846 #14245]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:36:14.917150 #14299]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:36:15.126404 #14299]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:36:15.339457 #14299]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:36:15.555855 #14299]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:36:15.758708 #14299]  INFO -- : Executing: select count(id) from films
-I, [2014-02-03T16:36:15.759162 #14299]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:36:15.959499 #14329]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 9, 'DVD', 'Loved it')
-I, [2014-02-03T16:36:15.969510 #14299]  INFO -- : Executing: SELECT name, director, year, country, language, distributor, date, format, rating, notes FROM films
-I, [2014-02-03T16:36:15.969995 #14299]  INFO -- : Executing: select count(id) from films
-I, [2014-02-03T16:36:15.970149 #14299]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:36:16.171756 #14334]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 9, 'DVD', 'Loved it')
-I, [2014-02-03T16:36:16.193824 #14299]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:36:16.404947 #14299]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:36:16.619611 #14299]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:36:58.651596 #14352]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:36:58.870325 #14362]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 9, 'DVD', 'Loved it')
-I, [2014-02-03T16:36:58.880187 #14352]  INFO -- : Executing: SELECT name, director, year, country, language, distributor, date, format, rating, notes FROM films
-I, [2014-02-03T16:36:58.880882 #14352]  INFO -- : Executing: select count(id) from films
-I, [2014-02-03T16:36:58.881112 #14352]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:36:59.092931 #14352]  INFO -- : Executing: select count(id) from films
-I, [2014-02-03T16:36:59.093549 #14352]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:36:59.301855 #14352]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:36:59.511179 #14352]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:36:59.724577 #14352]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:36:59.927602 #14352]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:37:00.144174 #14352]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:37:00.351912 #14397]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 9, 'DVD', 'Loved it')
-I, [2014-02-03T16:37:00.361494 #14352]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:41:07.764804 #14420]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 9, 'DVD', 'Loved it')
-I, [2014-02-03T16:41:07.770771 #14420]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany', '', '', '', , '', '')
-I, [2014-02-03T16:41:07.771117 #14420]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:43:29.118858 #14430]  INFO -- : Executing: select count(id) from films
-I, [2014-02-03T16:43:29.119810 #14430]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:43:29.326452 #14440]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 9, 'DVD', 'Loved it')
-I, [2014-02-03T16:43:29.336738 #14430]  INFO -- : Executing: SELECT name, director, year, country, language, distributor, date, format, rating, notes FROM films
-I, [2014-02-03T16:43:29.337321 #14430]  INFO -- : Executing: select count(id) from films
-I, [2014-02-03T16:43:29.337585 #14430]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:43:29.548076 #14430]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:43:29.766922 #14430]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:43:29.978295 #14430]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:43:30.193026 #14430]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:43:30.394385 #14465]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 9, 'DVD', 'Loved it')
-I, [2014-02-03T16:43:30.405044 #14430]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:43:30.610172 #14430]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:43:30.830533 #14430]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:43:34.164364 #14480]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 9, 'DVD', 'Loved it')
-I, [2014-02-03T16:43:34.169863 #14480]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany', '', '', '', , '', '')
-I, [2014-02-03T16:43:34.170124 #14480]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:44:24.934339 #14485]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', '', '', '', , '', '')
-I, [2014-02-03T16:44:24.934657 #14485]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:45:01.293798 #14490]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', '', '', '', , '', '')
-I, [2014-02-03T16:45:01.294081 #14490]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:46:20.818841 #14510]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', '', '', '', , '', '')
-I, [2014-02-03T16:46:20.819106 #14510]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:46:39.222763 #14516]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', '', '', '', , '', '')
-I, [2014-02-03T16:46:39.223074 #14516]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:47:14.850995 #14521]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:47:15.055395 #14521]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:47:15.273784 #14521]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:47:15.483607 #14521]  INFO -- : Executing: select count(id) from films
-I, [2014-02-03T16:47:15.484122 #14521]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:47:15.685839 #14546]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 9, 'DVD', 'Loved it')
-I, [2014-02-03T16:47:15.695309 #14521]  INFO -- : Executing: SELECT name, director, year, country, language, distributor, date, format, rating, notes FROM films
-I, [2014-02-03T16:47:15.695892 #14521]  INFO -- : Executing: select count(id) from films
-I, [2014-02-03T16:47:15.696061 #14521]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:47:15.905917 #14521]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:47:16.107917 #14556]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 9, 'DVD', 'Loved it')
-I, [2014-02-03T16:47:16.120103 #14521]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:47:16.326094 #14521]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:47:16.540331 #14521]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:47:44.705163 #14575]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', '', '', '', , '', '')
-I, [2014-02-03T16:47:44.705427 #14575]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:49:02.173486 #14582]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', '', '', '', , '', '')
-I, [2014-02-03T16:49:02.174009 #14582]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:49:39.029311 #14587]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', '', '', '', , '', '')
-I, [2014-02-03T16:49:39.029610 #14587]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:49:39.034879 #14587]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', '', '', '', , '', '')
-I, [2014-02-03T16:49:39.035134 #14587]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:49:39.036048 #14587]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:49:39.233485 #14592]  INFO -- : Executing: select * from films where id = 218903123980123
-I, [2014-02-03T16:49:39.242067 #14587]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:49:39.243446 #14587]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', '', '', '', , '', '')
-I, [2014-02-03T16:49:39.243760 #14587]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:58:32.333955 #14614]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:58:32.339889 #14614]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', '', '', '', , '', '')
-I, [2014-02-03T16:58:32.340141 #14614]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:58:32.341017 #14614]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', '', '', '', , '', '')
-I, [2014-02-03T16:58:32.341182 #14614]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:58:32.341837 #14614]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', '', '', '', , '', '')
-I, [2014-02-03T16:58:32.341976 #14614]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:58:32.541674 #14619]  INFO -- : Executing: select * from films where id = 218903123980123
-I, [2014-02-03T16:58:32.550522 #14614]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:59:09.687490 #14629]  INFO -- : Executing: select * from films where id = 218903123980123
-I, [2014-02-03T16:59:09.700215 #14624]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:59:09.701946 #14624]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', '', '', '', 0, '', '')
-I, [2014-02-03T16:59:09.894682 #14634]  INFO -- : Executing: select * from films where id = 15
-I, [2014-02-03T16:59:09.895293 #14634]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 1966, country = 'Sweden', language = '', distributor = '', date = '', rating = 0, format = '', notes = '' where id = 15
-I, [2014-02-03T16:59:09.918118 #14624]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:59:09.919308 #14624]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', '', '', '', 0, '', '')
-I, [2014-02-03T16:59:10.121583 #14642]  INFO -- : Executing: select * from films where id = 16
-I, [2014-02-03T16:59:10.122290 #14642]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 1967, country = 'Sweden', language = '', distributor = '', date = '', rating = 0, format = '', notes = '' where id = 16
-I, [2014-02-03T16:59:10.138489 #14624]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:59:10.139534 #14624]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', '', '', '', 0, '', '')
-I, [2014-02-03T16:59:10.346857 #14648]  INFO -- : Executing: select * from films where id = 17
-I, [2014-02-03T16:59:10.347604 #14648]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 1966, country = 'Sweden', language = '', distributor = '', date = '', rating = 0, format = '', notes = '' where id = 17
-I, [2014-02-03T16:59:10.364784 #14624]  INFO -- : Executing: delete from films
-I, [2014-02-03T16:59:10.365845 #14624]  INFO -- : Executing: delete from films
-I, [2014-02-03T17:07:46.200182 #14688]  INFO -- : Executing: select * from films where id = 218903123980123
-I, [2014-02-03T17:07:46.211225 #14683]  INFO -- : Executing: delete from films
-I, [2014-02-03T17:07:46.213104 #14683]  INFO -- : Executing: delete from films
-I, [2014-02-03T17:07:46.213936 #14683]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', '', '', '', 0, '', '')
-I, [2014-02-03T17:07:46.411429 #14693]  INFO -- : Executing: select * from films where id = 18
-I, [2014-02-03T17:07:46.412015 #14693]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 1966, country = 'Sweden', language = '', distributor = '', date = '', rating = 0, format = '', notes = '' where id = 18
-I, [2014-02-03T17:07:46.433078 #14683]  INFO -- : Executing: delete from films
-I, [2014-02-03T17:07:46.434251 #14683]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', '', '', '', 0, '', '')
-I, [2014-02-03T17:07:46.631987 #14701]  INFO -- : Executing: select * from films where id = 19
-I, [2014-02-03T17:07:46.632533 #14701]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 1966, country = 'Sweden', language = '', distributor = '', date = '', rating = 0, format = '', notes = '' where id = 19
-I, [2014-02-03T17:07:46.647061 #14683]  INFO -- : Executing: delete from films
-I, [2014-02-03T17:07:46.648189 #14683]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', '', '', '', 0, '', '')
-I, [2014-02-03T17:07:46.846504 #14707]  INFO -- : Executing: select * from films where id = 20
-I, [2014-02-03T17:07:46.847141 #14707]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 1966, country = 'Sweden', language = 'Swedish', distributor = 'MGM Home Entertainment', date = '12/17/13', rating = 9, format = 'DVD', notes = 'Loved it' where id = 20
-I, [2014-02-03T17:07:46.862094 #14683]  INFO -- : Executing: delete from films
-I, [2014-02-03T17:08:17.216993 #14718]  INFO -- : Executing: select * from films where id = 218903123980123
-I, [2014-02-03T17:08:17.227480 #14713]  INFO -- : Executing: delete from films
-I, [2014-02-03T17:08:17.230290 #14713]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', '', '', '', 0, '', '')
-I, [2014-02-03T17:08:17.425047 #14723]  INFO -- : Executing: select * from films where id = 21
-I, [2014-02-03T17:08:17.425601 #14723]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 1966, country = 'Sweden', language = '', distributor = '', date = '', rating = 0, format = '', notes = '' where id = 21
-I, [2014-02-03T17:08:17.449103 #14713]  INFO -- : Executing: delete from films
-I, [2014-02-03T17:08:17.450192 #14713]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', '', '', '', 0, '', '')
-I, [2014-02-03T17:08:17.650736 #14731]  INFO -- : Executing: select * from films where id = 22
-I, [2014-02-03T17:08:17.651313 #14731]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 1966, country = 'Sweden', language = '', distributor = '', date = '', rating = 0, format = '', notes = '' where id = 22
-I, [2014-02-03T17:08:17.666487 #14713]  INFO -- : Executing: delete from films
-I, [2014-02-03T17:08:17.667474 #14713]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', '', '', '', 0, '', '')
-I, [2014-02-03T17:08:17.871730 #14737]  INFO -- : Executing: select * from films where id = 23
-I, [2014-02-03T17:08:17.872302 #14737]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 1966, country = 'Sweden', language = 'Swedish', distributor = 'MGM Home Entertainment', date = '12/17/13', rating = 9, format = 'DVD', notes = 'Loved it' where id = 23
-I, [2014-02-03T17:08:17.882261 #14713]  INFO -- : Executing: delete from films
-I, [2014-02-03T17:08:17.883473 #14713]  INFO -- : Executing: delete from films
-I, [2014-02-03T17:08:46.911263 #14742]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', '', '', '', 0, '', '')
-I, [2014-02-03T17:08:47.121856 #14747]  INFO -- : Executing: select * from films where id = 24
-I, [2014-02-03T17:08:47.122428 #14747]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 1967, country = 'Sweden', language = 'Swedish', distributor = 'MGM Home Entertainment', date = '12/17/13', rating = 9, format = 'DVD', notes = 'Loved it' where id = 24
-I, [2014-02-03T17:08:47.132043 #14742]  INFO -- : Executing: delete from films
-I, [2014-02-03T17:08:47.133292 #14742]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', '', '', '', 0, '', '')
-I, [2014-02-03T17:08:47.345018 #14752]  INFO -- : Executing: select * from films where id = 25
-I, [2014-02-03T17:08:47.345575 #14752]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 1966, country = 'Sweden', language = '', distributor = '', date = '', rating = 0, format = '', notes = '' where id = 25
-I, [2014-02-03T17:08:47.368514 #14742]  INFO -- : Executing: delete from films
-I, [2014-02-03T17:08:47.369577 #14742]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', '', '', '', 0, '', '')
-I, [2014-02-03T17:08:47.564263 #14760]  INFO -- : Executing: select * from films where id = 26
-I, [2014-02-03T17:08:47.564885 #14760]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 1966, country = 'Sweden', language = '', distributor = '', date = '', rating = 0, format = '', notes = '' where id = 26
-I, [2014-02-03T17:08:47.579488 #14742]  INFO -- : Executing: delete from films
-I, [2014-02-03T17:08:47.580733 #14742]  INFO -- : Executing: delete from films
-I, [2014-02-03T17:08:47.779147 #14766]  INFO -- : Executing: select * from films where id = 218903123980123
-I, [2014-02-03T17:08:47.789392 #14742]  INFO -- : Executing: delete from films
-I, [2014-02-03T17:09:10.092829 #14772]  INFO -- : Executing: delete from films
-I, [2014-02-03T17:09:10.100800 #14772]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', '', '', '', 0, '', '')
-I, [2014-02-03T17:09:10.303345 #14777]  INFO -- : Executing: select * from films where id = 27
-I, [2014-02-03T17:09:10.304168 #14777]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 1966, country = 'Sweden', language = '', distributor = '', date = '', rating = 0, format = '', notes = '' where id = 27
-I, [2014-02-03T17:09:10.326207 #14772]  INFO -- : Executing: delete from films
-I, [2014-02-03T17:09:10.327232 #14772]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', '', '', '', 0, '', '')
-I, [2014-02-03T17:09:10.526157 #14785]  INFO -- : Executing: select * from films where id = 28
-I, [2014-02-03T17:09:10.526733 #14785]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 1966, country = 'Sweden', language = 'Swedish', distributor = 'MGM Home Entertainment', date = '12/17/13', rating = 9, format = 'DVD', notes = 'Loved it' where id = 28
-I, [2014-02-03T17:09:10.538745 #14772]  INFO -- : Executing: delete from films
-I, [2014-02-03T17:09:10.739975 #14790]  INFO -- : Executing: select * from films where id = 218903123980123
-I, [2014-02-03T17:09:10.748665 #14772]  INFO -- : Executing: delete from films
-I, [2014-02-03T17:09:10.750026 #14772]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', '', '', '', 0, '', '')
-I, [2014-02-03T17:09:10.948175 #14795]  INFO -- : Executing: select * from films where id = 29
-I, [2014-02-03T17:09:10.948784 #14795]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 1967, country = 'Sweden', language = 'Swedish', distributor = 'MGM Home Entertainment', date = '12/17/13', rating = 9, format = 'DVD', notes = 'Loved it' where id = 29
-I, [2014-02-03T17:09:10.958216 #14772]  INFO -- : Executing: delete from films
-I, [2014-02-03T17:09:59.786516 #14805]  INFO -- : Executing: select * from films where id = 218903123980123
-I, [2014-02-03T17:09:59.797491 #14800]  INFO -- : Executing: delete from films
-I, [2014-02-03T17:09:59.799242 #14800]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', '', '', '', 0, '', '')
-I, [2014-02-03T17:09:59.997442 #14810]  INFO -- : Executing: select * from films where id = 30
-I, [2014-02-03T17:09:59.998022 #14810]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 1966, country = 'Sweden', language = 'Swedish', distributor = 'MGM Home Entertainment', date = '12/17/13', rating = 9, format = 'DVD', notes = 'Loved it' where id = 30
-I, [2014-02-03T17:10:00.008300 #14800]  INFO -- : Executing: delete from films
-I, [2014-02-03T17:10:00.009639 #14800]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', '', '', '', 0, '', '')
-I, [2014-02-03T17:10:00.204952 #14815]  INFO -- : Executing: select * from films where id = 31
-I, [2014-02-03T17:10:00.205541 #14815]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 1967, country = 'Sweden', language = '', distributor = '', date = '', rating = 0, format = '', notes = '' where id = 31
-I, [2014-02-03T17:10:00.226292 #14800]  INFO -- : Executing: delete from films
-I, [2014-02-03T17:10:00.227450 #14800]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', '', '', '', 0, '', '')
-I, [2014-02-03T17:10:00.426995 #14823]  INFO -- : Executing: select * from films where id = 32
-I, [2014-02-03T17:10:00.427551 #14823]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 1967, country = 'Sweden', language = 'Swedish', distributor = 'MGM Home Entertainment', date = '12/17/13', rating = 9, format = 'DVD', notes = 'Loved it' where id = 32
-I, [2014-02-03T17:10:00.437120 #14800]  INFO -- : Executing: delete from films
-I, [2014-02-03T17:10:00.438598 #14800]  INFO -- : Executing: delete from films
-I, [2014-02-03T17:10:28.637815 #14833]  INFO -- : Executing: select * from films where id = 218903123980123
-I, [2014-02-03T17:10:28.648112 #14828]  INFO -- : Executing: delete from films
-I, [2014-02-03T17:10:28.650972 #14828]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', '', '', '', 0, '', '')
-I, [2014-02-03T17:10:28.847665 #14838]  INFO -- : Executing: select * from films where id = 33
-I, [2014-02-03T17:10:28.848239 #14838]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 1967, country = 'Sweden', language = '', distributor = '', date = '', rating = 0, format = '', notes = '' where id = 33
-I, [2014-02-03T17:10:28.869378 #14828]  INFO -- : Executing: delete from films
-I, [2014-02-03T17:10:28.870600 #14828]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', '', '', '', 0, '', '')
-I, [2014-02-03T17:10:29.067222 #14846]  INFO -- : Executing: select * from films where id = 34
-I, [2014-02-03T17:10:29.067878 #14846]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 1966, country = 'Sweden', language = 'Swedish', distributor = 'MGM Home Entertainment', date = '12/17/13', rating = 9, format = 'DVD', notes = 'Loved it' where id = 34
-I, [2014-02-03T17:10:29.077767 #14828]  INFO -- : Executing: delete from films
-I, [2014-02-03T17:10:29.079030 #14828]  INFO -- : Executing: delete from films
-I, [2014-02-03T17:10:29.079771 #14828]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', '', '', '', 0, '', '')
-I, [2014-02-03T17:10:29.288700 #14851]  INFO -- : Executing: select * from films where id = 35
-I, [2014-02-03T17:10:29.289327 #14851]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 1967, country = 'Sweden', language = 'Swedish', distributor = 'MGM Home Entertainment', date = '12/17/13', rating = 9, format = 'DVD', notes = 'Loved it' where id = 35
-I, [2014-02-03T17:10:29.300267 #14828]  INFO -- : Executing: delete from films
-I, [2014-02-03T17:13:12.962233 #14862]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', '', '', '', 0, '', '')
-I, [2014-02-03T17:13:13.167211 #14867]  INFO -- : Executing: select * from films where id = 36
-I, [2014-02-03T17:13:13.167837 #14867]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 1966, country = 'Sweden', language = 'Swedish', distributor = 'MGM Home Entertainment', date = '12/17/13', rating = 9, format = 'DVD', notes = 'Loved it' where id = 36
-I, [2014-02-03T17:13:13.177153 #14862]  INFO -- : Executing: delete from films
-I, [2014-02-03T17:13:13.374122 #14872]  INFO -- : Executing: select * from films where id = 218903123980123
-I, [2014-02-03T17:13:13.382818 #14862]  INFO -- : Executing: delete from films
-I, [2014-02-03T17:13:13.383950 #14862]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17.13', 9, 'DVD', 'Loved it')
-I, [2014-02-03T17:13:13.581126 #14877]  INFO -- : Executing: select * from films where id = 37
-I, [2014-02-03T17:13:13.581691 #14877]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 1967, country = 'Sweden', language = 'Swedish', distributor = 'MGM Home Entertainment', date = '12/17/13', rating = 9, format = 'DVD', notes = 'Loved it' where id = 37
-I, [2014-02-03T17:13:13.591086 #14862]  INFO -- : Executing: delete from films
-I, [2014-02-03T17:13:13.592399 #14862]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', '', '', '', 0, '', '')
-I, [2014-02-03T17:13:13.797699 #14882]  INFO -- : Executing: select * from films where id = 38
-I, [2014-02-03T17:13:13.798249 #14882]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 1967, country = 'Sweden', language = '', distributor = '', date = '', rating = 0, format = '', notes = '' where id = 38
-I, [2014-02-03T17:13:13.822679 #14862]  INFO -- : Executing: delete from films
-I, [2014-02-03T17:13:13.823775 #14862]  INFO -- : Executing: delete from films
-I, [2014-02-03T17:13:27.532921 #14890]  INFO -- : Executing: delete from films
-I, [2014-02-03T17:13:27.538739 #14890]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17.13', 9, 'DVD', 'Loved it')
-I, [2014-02-03T17:13:27.736942 #14895]  INFO -- : Executing: select * from films where id = 39
-I, [2014-02-03T17:13:27.737540 #14895]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 1967, country = 'Sweden', language = 'Swedish', distributor = 'MGM Home Entertainment', date = '12/17.13', rating = 9, format = 'DVD', notes = 'Loved it' where id = 39
-I, [2014-02-03T17:13:27.760252 #14890]  INFO -- : Executing: delete from films
-I, [2014-02-03T17:13:27.952683 #14903]  INFO -- : Executing: select * from films where id = 218903123980123
-I, [2014-02-03T17:13:27.961521 #14890]  INFO -- : Executing: delete from films
-I, [2014-02-03T17:13:27.962789 #14890]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17.13', 9, 'DVD', 'Loved it')
-I, [2014-02-03T17:13:28.155962 #14908]  INFO -- : Executing: select * from films where id = 40
-I, [2014-02-03T17:13:28.156549 #14908]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 1966, country = 'Sweden', language = 'Swedish', distributor = 'MGM Home Entertainment', date = '12/17/13', rating = 9, format = 'DVD', notes = 'Loved it' where id = 40
-I, [2014-02-03T17:13:28.166280 #14890]  INFO -- : Executing: delete from films
-I, [2014-02-03T17:13:28.167497 #14890]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17.13', 9, 'DVD', 'Loved it')
-I, [2014-02-03T17:13:28.363445 #14913]  INFO -- : Executing: select * from films where id = 41
-I, [2014-02-03T17:13:28.364031 #14913]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 1967, country = 'Sweden', language = 'Swedish', distributor = 'MGM Home Entertainment', date = '12/17/13', rating = 9, format = 'DVD', notes = 'Loved it' where id = 41
-I, [2014-02-03T17:13:28.374242 #14890]  INFO -- : Executing: delete from films
-I, [2014-02-03T17:14:23.333281 #14918]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 9, 'DVD', 'Loved it')
-I, [2014-02-03T17:14:23.539441 #14923]  INFO -- : Executing: select * from films where id = 42
-I, [2014-02-03T17:14:23.540033 #14923]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 1966, country = 'Sweden', language = 'Swedish', distributor = 'MGM Home Entertainment', date = '12/17/13', rating = 9, format = 'DVD', notes = 'Loved it' where id = 42
-I, [2014-02-03T17:14:23.549637 #14918]  INFO -- : Executing: delete from films
-I, [2014-02-03T17:14:23.742301 #14928]  INFO -- : Executing: select * from films where id = 218903123980123
-I, [2014-02-03T17:14:23.750820 #14918]  INFO -- : Executing: delete from films
-I, [2014-02-03T17:14:23.752139 #14918]  INFO -- : Executing: delete from films
-I, [2014-02-03T17:14:23.752883 #14918]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 9, 'DVD', 'Loved it')
-I, [2014-02-03T17:14:23.947669 #14933]  INFO -- : Executing: select * from films where id = 43
-I, [2014-02-03T17:14:23.948237 #14933]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 1967, country = 'Sweden', language = 'Swedish', distributor = 'MGM Home Entertainment', date = '12/17/13', rating = 9, format = 'DVD', notes = 'Loved it' where id = 43
-I, [2014-02-03T17:14:23.957689 #14918]  INFO -- : Executing: delete from films
-I, [2014-02-03T17:14:23.958990 #14918]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 9, 'DVD', 'Loved it')
-I, [2014-02-03T17:14:24.163899 #14938]  INFO -- : Executing: select * from films where id = 44
-I, [2014-02-03T17:14:24.164568 #14938]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 1967, country = 'Sweden', language = 'Swedish', distributor = 'MGM Home Entertainment', date = '12/17/13', rating = 9, format = 'DVD', notes = 'Loved it' where id = 44
-I, [2014-02-03T17:14:24.174013 #14918]  INFO -- : Executing: delete from films
-I, [2014-02-03T17:15:03.433275 #14944]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 9, 'DVD', 'Loved it')
-I, [2014-02-03T17:15:03.435199 #14944]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany', '', '', '', 0, '', '')
-I, [2014-02-03T17:15:03.435924 #14944]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Irma Vep', 'Olivier Assayas', 1996, 'France', '', '', '', 0, '', '')
-I, [2014-02-03T17:15:03.629994 #14949]  INFO -- : Executing: select * from films order by name ASC
-I, [2014-02-03T17:15:03.650780 #14944]  INFO -- : Executing: delete from films
-I, [2014-02-03T17:17:46.033288 #14966]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 9, 'DVD', 'Loved it')
-I, [2014-02-03T17:17:46.038991 #14966]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany', 'German', 'Unknown', '12/09/13', 7, 'DVD', 'Great political commentary, very absurdist')
-I, [2014-02-03T17:17:46.039816 #14966]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Irma Vep', 'Olivier Assayas', 1996, 'France', 'French, English', 'Criterion Collection', '12/04/13', 8, 'DVD', 'Maggie Cheung is great as the lead')
-I, [2014-02-03T17:17:46.237871 #14971]  INFO -- : Executing: select * from films order by name ASC
-I, [2014-02-03T17:17:46.258256 #14966]  INFO -- : Executing: delete from films
-I, [2014-02-03T17:18:33.287865 #14980]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 9, 'DVD', 'Loved it')
-I, [2014-02-03T17:18:33.289517 #14980]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany', 'German', 'Unknown', '12/09/13', 7, 'DVD', 'Great political commentary, very absurdist')
-I, [2014-02-03T17:18:33.290233 #14980]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Irma Vep', 'Olivier Assayas', 1996, 'France', 'French, English', 'Criterion Collection', '12/04/13', 8, 'DVD', 'Maggie Cheung is great as the lead')
-I, [2014-02-03T17:18:33.491000 #14985]  INFO -- : Executing: select * from films order by name ASC
-I, [2014-02-03T17:18:33.513247 #14980]  INFO -- : Executing: delete from films
-I, [2014-02-03T17:19:43.973588 #14993]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 9, 'DVD', 'Loved it')
-I, [2014-02-03T17:19:43.978921 #14993]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany', 'German', 'Unknown', '12/09/13', 7, 'DVD', 'Great political commentary, very absurdist')
-I, [2014-02-03T17:19:43.979694 #14993]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Irma Vep', 'Olivier Assayas', 1996, 'France', 'French', 'Criterion Collection', '12/04/13', 8, 'DVD', 'Maggie Cheung is great as the lead')
-I, [2014-02-03T17:19:44.181912 #14998]  INFO -- : Executing: select * from films order by name ASC
-I, [2014-02-03T17:19:44.203261 #14993]  INFO -- : Executing: delete from films
-I, [2014-02-03T17:20:12.238832 #15006]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 9, 'DVD', 'Loved it')
-I, [2014-02-03T17:20:12.244867 #15006]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany', 'German', 'Unknown', '12/09/13', 7, 'DVD', 'Great political commentary, very absurdist')
-I, [2014-02-03T17:20:12.245841 #15006]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Irma Vep', 'Olivier Assayas', 1996, 'France', 'French', 'Criterion Collection', '12/04/13', 8, 'DVD', 'Maggie Cheung is great as the lead')
-I, [2014-02-03T17:20:12.443466 #15011]  INFO -- : Executing: select * from films order by name ASC
-I, [2014-02-03T17:20:12.464376 #15006]  INFO -- : Executing: delete from films
-I, [2014-02-03T17:20:26.416622 #15019]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 9, 'DVD', 'Loved it')
-I, [2014-02-03T17:20:26.422308 #15019]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany', 'German', 'Unknown', '12/09/13', 7, 'DVD', 'Great political commentary, very absurdist')
-I, [2014-02-03T17:20:26.423242 #15019]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Irma Vep', 'Olivier Assayas', 1996, 'France', 'French', 'Criterion Collection', '12/04/13', 8, 'DVD', 'Maggie Cheung is great as the lead')
-I, [2014-02-03T17:20:26.622724 #15024]  INFO -- : Executing: select * from films order by name ASC
-I, [2014-02-03T17:20:26.642985 #15019]  INFO -- : Executing: delete from films
-I, [2014-02-03T17:20:35.824979 #15032]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 9, 'DVD', 'Loved it')
-I, [2014-02-03T17:20:35.830311 #15032]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany', 'German', 'Unknown', '12/09/13', 7, 'DVD', 'Great political commentary, very absurdist')
-I, [2014-02-03T17:20:35.831290 #15032]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Irma Vep', 'Olivier Assayas', 1996, 'France', 'French', 'Criterion Collection', '12/04/13', 8, 'DVD', 'Maggie Cheung is great as the lead')
-I, [2014-02-03T17:20:36.028055 #15037]  INFO -- : Executing: select * from films order by name ASC
-I, [2014-02-03T17:20:36.048901 #15032]  INFO -- : Executing: delete from films
-I, [2014-02-03T17:21:27.635127 #15046]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 9, 'DVD', 'Loved it')
-I, [2014-02-03T17:21:27.641008 #15046]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany', 'German', 'Unknown', '12/09/13', 7, 'DVD', 'Great political commentary, very absurdist')
-I, [2014-02-03T17:21:27.642023 #15046]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Irma Vep', 'Olivier Assayas', 1996, 'France', 'French, English', 'Criterion Collection', '12/04/13', 8, 'DVD', 'Maggie Cheung is great as the lead')
-I, [2014-02-03T17:21:27.839663 #15051]  INFO -- : Executing: select * from films order by name ASC
-I, [2014-02-03T17:21:27.859169 #15046]  INFO -- : Executing: delete from films
-I, [2014-02-03T17:22:01.208221 #15060]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 9, 'DVD', 'Loved it')
-I, [2014-02-03T17:22:01.213763 #15060]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany', 'German', 'Unknown', '12/09/13', 7, 'DVD', 'Great political commentary, very absurdist')
-I, [2014-02-03T17:22:01.214680 #15060]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Irma Vep', 'Olivier Assayas', 1996, 'France', 'French, English', 'Criterion Collection', '12/04/13', 8, 'DVD', 'Maggie Cheung is great as the lead')
-I, [2014-02-03T17:22:01.407858 #15065]  INFO -- : Executing: select * from films order by name ASC
-I, [2014-02-03T17:22:01.429085 #15060]  INFO -- : Executing: delete from films
-I, [2014-02-03T17:22:25.606420 #15073]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 9, 'DVD', 'Loved it')
-I, [2014-02-03T17:22:25.607725 #15073]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany', 'German', 'Unknown', '12/09/13', 7, 'DVD', 'Great political commentary, very absurdist')
-I, [2014-02-03T17:22:25.608557 #15073]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, rating, format, notes) values('Irma Vep', 'Olivier Assayas', 1996, 'France', 'French, English', 'Criterion Collection', '12/04/13', 8, 'DVD', 'Maggie Cheung is great as the lead')
-I, [2014-02-03T17:22:25.806798 #15078]  INFO -- : Executing: select * from films order by name ASC
-I, [2014-02-03T17:22:25.827883 #15073]  INFO -- : Executing: delete from films
-I, [2014-02-03T17:23:47.257027 #15086]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 'DVD', 9, 'Loved it')
-I, [2014-02-03T17:23:47.262794 #15086]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany', 'German', 'Unknown', '12/09/13', 'DVD', 7, 'Great political commentary, very absurdist')
-I, [2014-02-03T17:23:47.263482 #15086]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('Irma Vep', 'Olivier Assayas', 1996, 'France', 'French, English', 'Criterion Collection', '12/04/13', 'DVD', 8, 'Maggie Cheung is great as the lead')
-I, [2014-02-03T17:23:47.462653 #15091]  INFO -- : Executing: select * from films order by name ASC
-I, [2014-02-03T17:23:47.483372 #15086]  INFO -- : Executing: delete from films
-I, [2014-02-03T17:24:20.652340 #15100]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 'DVD', 9, 'Loved it')
-I, [2014-02-03T17:24:20.658234 #15100]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany', 'German', 'Unknown', '12/09/13', 'DVD', 7, 'Great political commentary, very absurdist')
-I, [2014-02-03T17:24:20.659001 #15100]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('Irma Vep', 'Olivier Assayas', 1996, 'France', 'French, English', 'Criterion Collection', '12/04/13', 'DVD', 8, 'Maggie Cheung is great as the lead')
-I, [2014-02-03T17:24:20.863689 #15105]  INFO -- : Executing: select * from films order by name ASC
-I, [2014-02-03T17:24:20.884968 #15100]  INFO -- : Executing: delete from films
-I, [2014-02-03T17:25:05.198984 #15113]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 'DVD', 9, 'Loved it')
-I, [2014-02-03T17:25:05.204533 #15113]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany', 'German', 'Unknown', '12/09/13', 'DVD', 7, 'Great political commentary, very absurdist')
-I, [2014-02-03T17:25:05.205626 #15113]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('Irma Vep', 'Olivier Assayas', 1996, 'France', 'French, English', 'Criterion Collection', '12/04/13', 'DVD', 8, 'Maggie Cheung is great as the lead')
-I, [2014-02-03T17:25:05.403629 #15118]  INFO -- : Executing: select * from films order by name ASC
-I, [2014-02-03T17:25:05.425791 #15113]  INFO -- : Executing: delete from films
-I, [2014-02-03T17:25:26.214193 #15126]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 'DVD', 9, 'Loved it')
-I, [2014-02-03T17:25:26.219940 #15126]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany', 'German', 'Unknown', '12/09/13', 'DVD', 7, 'Great political commentary, very absurdist')
-I, [2014-02-03T17:25:26.220732 #15126]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('Irma Vep', 'Olivier Assayas', 1996, 'France', 'French, English', 'Criterion Collection', '12/04/13', 'DVD', 8, 'Maggie Cheung is great as the lead')
-I, [2014-02-03T17:25:26.416413 #15131]  INFO -- : Executing: select * from films order by name ASC
-I, [2014-02-03T17:25:26.436638 #15126]  INFO -- : Executing: delete from films
-I, [2014-02-03T17:26:17.879162 #15140]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 'DVD', 9, 'Loved it')
-I, [2014-02-03T17:26:17.884753 #15140]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany', 'German', 'Unknown', '12/09/13', 'DVD', 7, 'Great political commentary, very absurdist')
-I, [2014-02-03T17:26:17.885585 #15140]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('Irma Vep', 'Olivier Assayas', 1996, 'France', 'French, English', 'Criterion Collection', '12/04/13', 'DVD', 8, 'Maggie Cheung is great as the lead')
-I, [2014-02-03T17:26:18.081800 #15145]  INFO -- : Executing: select * from films order by name ASC
-I, [2014-02-03T17:26:18.091244 #15140]  INFO -- : Executing: delete from films
+I, [2014-02-05T13:39:47.085343 #19297]  INFO -- : Executing: select * from films where name LIKE '%Third%' OR director LIKE '%Third%' OR year LIKE '%Third%' OR country LIKE '%Third%'  OR language LIKE '%Third%' OR distributor LIKE '%Third%' OR format LIKE '%Third%' OR notes LIKE '%Third%'
+I, [2014-02-05T13:39:47.095107 #19277]  INFO -- : Executing: delete from films
+I, [2014-02-05T13:41:06.844876 #19302]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 'DVD', 9, 'Loved it')
+I, [2014-02-05T13:41:06.850310 #19302]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany', 'German', 'Unknown', '12/09/13', 'DVD', 7, 'Great political commentary, very absurdist')
+I, [2014-02-05T13:41:06.851097 #19302]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('Irma Vep', 'Olivier Assayas', 1996, 'France', 'French, English', 'Criterion Collection', '12/04/13', 'DVD', 8, 'Maggie Cheung is great as the lead')
+I, [2014-02-05T13:41:07.054427 #19307]  INFO -- : Executing: select * from films where name LIKE '%Third%' OR director LIKE '%Third%' OR year LIKE '%Third%' OR country LIKE '%Third%'  OR language LIKE '%Third%' OR distributor LIKE '%Third%' OR format LIKE '%Third%' OR notes LIKE '%Third%'
+I, [2014-02-05T13:41:07.063564 #19302]  INFO -- : Executing: delete from films
+I, [2014-02-05T13:41:12.724338 #19317]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 'DVD', 9, 'Loved it')
+I, [2014-02-05T13:41:12.934338 #19322]  INFO -- : Executing: select * from films where id = 134
+I, [2014-02-05T13:41:12.934884 #19322]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 1967, country = 'Sweden', language = 'Swedish', distributor = 'MGM Home Entertainment', date = '12/17/13', format = 'DVD', rating = 9, notes = 'Loved it' where id = 134
+I, [2014-02-05T13:41:12.944587 #19317]  INFO -- : Executing: delete from films
+I, [2014-02-05T13:41:13.148796 #19327]  INFO -- : Executing: select * from films where id = 218903123980123
+I, [2014-02-05T13:41:13.157367 #19317]  INFO -- : Executing: delete from films
+I, [2014-02-05T13:41:13.158713 #19317]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 'DVD', 9, 'Loved it')
+I, [2014-02-05T13:41:13.370698 #19332]  INFO -- : Executing: select * from films where id = 135
+I, [2014-02-05T13:41:13.371294 #19332]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 1966, country = 'Sweden', language = 'Swedish', distributor = 'MGM Home Entertainment', date = '12/17/13', format = 'DVD', rating = 9, notes = 'Loved it' where id = 135
+I, [2014-02-05T13:41:13.380455 #19317]  INFO -- : Executing: delete from films
+I, [2014-02-05T13:41:13.381839 #19317]  INFO -- : Executing: delete from films
+I, [2014-02-05T13:41:13.382767 #19317]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 'DVD', 9, 'Loved it')
+I, [2014-02-05T13:41:13.590480 #19337]  INFO -- : Executing: select * from films where id = 136
+I, [2014-02-05T13:41:13.591042 #19337]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergmann', year = 1967, country = 'Sweden', language = 'Swedish', distributor = 'MGM Home Entertainment', date = '12/17/13', format = 'DVD', rating = 9, notes = 'Loved it' where id = 136
+I, [2014-02-05T13:41:13.600803 #19317]  INFO -- : Executing: delete from films
+I, [2014-02-05T13:41:13.814766 #19317]  INFO -- : Executing: delete from films
+I, [2014-02-05T13:41:14.018158 #19347]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 'DVD', 9, 'Loved it')
+I, [2014-02-05T13:41:14.027781 #19317]  INFO -- : Executing: SELECT name, director, year, country, language, distributor, date, format, rating, notes FROM films
+I, [2014-02-05T13:41:14.028262 #19317]  INFO -- : Executing: select count(id) from films
+I, [2014-02-05T13:41:14.028441 #19317]  INFO -- : Executing: delete from films
+I, [2014-02-05T13:41:14.236111 #19352]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 'DVD', 9, 'Loved it')
+I, [2014-02-05T13:41:14.245914 #19317]  INFO -- : Executing: delete from films
+I, [2014-02-05T13:41:14.458441 #19317]  INFO -- : Executing: select count(id) from films
+I, [2014-02-05T13:41:14.458846 #19317]  INFO -- : Executing: delete from films
+I, [2014-02-05T13:41:14.667977 #19317]  INFO -- : Executing: delete from films
+I, [2014-02-05T13:41:14.881560 #19317]  INFO -- : Executing: delete from films
+I, [2014-02-05T13:41:15.095420 #19317]  INFO -- : Executing: delete from films
+I, [2014-02-05T13:41:15.313786 #19317]  INFO -- : Executing: delete from films
+I, [2014-02-05T13:41:15.527813 #19317]  INFO -- : Executing: delete from films
+I, [2014-02-05T13:41:15.529652 #19317]  INFO -- : Executing: select * from films order by name ASC
+I, [2014-02-05T13:41:15.529901 #19317]  INFO -- : Executing: delete from films
+I, [2014-02-05T13:41:15.530844 #19317]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 'DVD', 9, 'Loved it')
+I, [2014-02-05T13:41:15.531737 #19317]  INFO -- : Executing: update films set name = 'My Movie', director = 'Katie Miller', year = 1999, country = 'USA', language = 'English', distributor = 'Criterion Collection', date = '12/17/14', format = 'Theater', rating = 7, notes = 'Loved it a lot' where id = 139
+I, [2014-02-05T13:41:15.532412 #19317]  INFO -- : Executing: delete from films
+I, [2014-02-05T13:41:15.533092 #19317]  INFO -- : Executing: select * from films where id = 12342
+I, [2014-02-05T13:41:15.533308 #19317]  INFO -- : Executing: delete from films
+I, [2014-02-05T13:41:15.534069 #19317]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 'DVD', 9, 'Loved it')
+I, [2014-02-05T13:41:15.535018 #19317]  INFO -- : Executing: update films set name = 'My Movie', director = 'Katie Miller', year = 1999, country = 'USA', language = 'English', distributor = 'Criterion Collection', date = '12/17/14', format = 'Theater', rating = 7, notes = 'Loved it a lot' where id = 140
+I, [2014-02-05T13:41:15.535821 #19317]  INFO -- : Executing: select * from films where id = 140
+I, [2014-02-05T13:41:15.536444 #19317]  INFO -- : Executing: delete from films
+I, [2014-02-05T13:41:15.537375 #19317]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('Foo', 'Bar', 666, 'Bash', '', '', '', '', 0, '')
+I, [2014-02-05T13:41:15.538189 #19317]  INFO -- : Executing: delete from films
+I, [2014-02-05T13:41:15.538832 #19317]  INFO -- : Executing: select count(id) from films
+I, [2014-02-05T13:41:15.539134 #19317]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 'DVD', 9, 'Loved it')
+I, [2014-02-05T13:41:15.539935 #19317]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 1966, country = 'Sweden', language = 'Swedish', distributor = 'MGM Home Entertainment', date = '12/17/13', format = 'DVD', rating = 9, notes = 'Loved it' where id = 142
+I, [2014-02-05T13:41:15.540619 #19317]  INFO -- : Executing: select count(id) from films
+I, [2014-02-05T13:41:15.540782 #19317]  INFO -- : Executing: delete from films
+I, [2014-02-05T13:41:15.541448 #19317]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany', 'German', 'Unknown', '12/09/13', 'DVD', 7, 'Great political commentary, very absurdist')
+I, [2014-02-05T13:41:15.542106 #19317]  INFO -- : Executing: select count(id) from films
+I, [2014-02-05T13:41:15.542241 #19317]  INFO -- : Executing: update films set name = 'The 3rd Generation', director = 'Rainer Werner Fassbinder', year = 1975, country = 'Germany', language = 'German', distributor = 'Unknown', date = '12/09/13', format = 'DVD', rating = 7, notes = 'Great political commentary, very absurdist' where id = 143
+I, [2014-02-05T13:41:15.542917 #19317]  INFO -- : Executing: select count(id) from films
+I, [2014-02-05T13:41:15.543105 #19317]  INFO -- : Executing: delete from films
+I, [2014-02-05T13:41:15.543791 #19317]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('Foo', 'Bar', 666, 'Bash', '', '', '', '', 0, '')
+I, [2014-02-05T13:41:15.544447 #19317]  INFO -- : Executing: select * from films where id = 144
+I, [2014-02-05T13:41:15.544659 #19317]  INFO -- : Executing: delete from films
+I, [2014-02-05T13:41:15.545410 #19317]  INFO -- : Executing: delete from films
+I, [2014-02-05T13:41:15.546092 #19317]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany', 'German', 'Unknown', '12/09/13', 'DVD', 7, 'Great political commentary, very absurdist')
+I, [2014-02-05T13:41:15.546779 #19317]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 'DVD', 9, 'Loved it')
+I, [2014-02-05T13:41:15.547426 #19317]  INFO -- : Executing: select * from films order by name ASC
+I, [2014-02-05T13:41:15.547797 #19317]  INFO -- : Executing: delete from films
+I, [2014-02-05T13:41:15.548815 #19317]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 'DVD', 9, 'Loved it')
+I, [2014-02-05T13:41:15.549594 #19317]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany', 'German', 'Unknown', '12/09/13', 'DVD', 7, 'Great political commentary, very absurdist')
+I, [2014-02-05T13:41:15.550256 #19317]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('Irma Vep', 'Olivier Assayas', 1996, 'France', 'French, English', 'Criterion Collection', '12/04/13', 'DVD', 8, 'Maggie Cheung is great as the lead')
+I, [2014-02-05T13:41:15.750834 #19387]  INFO -- : Executing: select * from films order by name ASC
+I, [2014-02-05T13:41:15.759557 #19317]  INFO -- : Executing: delete from films
+I, [2014-02-05T13:41:15.761368 #19317]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 'DVD', 9, 'Loved it')
+I, [2014-02-05T13:41:15.762485 #19317]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany', 'German', 'Unknown', '12/09/13', 'DVD', 7, 'Great political commentary, very absurdist')
+I, [2014-02-05T13:41:15.763454 #19317]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('Irma Vep', 'Olivier Assayas', 1996, 'France', 'French, English', 'Criterion Collection', '12/04/13', 'DVD', 8, 'Maggie Cheung is great as the lead')
+I, [2014-02-05T13:41:15.981595 #19392]  INFO -- : Executing: select * from films where name LIKE '%Third%' OR director LIKE '%Third%' OR year LIKE '%Third%' OR country LIKE '%Third%'  OR language LIKE '%Third%' OR distributor LIKE '%Third%' OR format LIKE '%Third%' OR notes LIKE '%Third%'
+I, [2014-02-05T13:41:15.991791 #19317]  INFO -- : Executing: delete from films
+I, [2014-02-05T14:01:43.905343 #19439]  INFO -- : Executing: select * from films where id = 218903123980123
+I, [2014-02-05T14:01:43.934117 #19434]  INFO -- : Executing: delete from films
+I, [2014-02-05T14:01:43.935565 #19434]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 'DVD', 9, 'Loved it')
+I, [2014-02-05T14:01:44.415395 #19444]  INFO -- : Executing: select * from films where id = 153
+I, [2014-02-05T14:01:44.416002 #19444]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 1967, country = 'Sweden', language = 'Swedish', distributor = 'MGM Home Entertainment', date = '12/17/13', format = 'DVD', rating = 9, notes = 'Loved it' where id = 153
+I, [2014-02-05T14:01:44.446857 #19434]  INFO -- : Executing: delete from films
+I, [2014-02-05T14:01:44.448383 #19434]  INFO -- : Executing: delete from films
+I, [2014-02-05T14:01:44.449143 #19434]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 'DVD', 9, 'Loved it')
+I, [2014-02-05T14:01:44.903396 #19449]  INFO -- : Executing: select * from films where id = 154
+I, [2014-02-05T14:01:44.903974 #19449]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 1966, country = 'Sweden', language = 'Swedish', distributor = 'MGM Home Entertainment', date = '12/17/13', format = 'DVD', rating = 9, notes = 'Loved it' where id = 154
+I, [2014-02-05T14:01:44.933339 #19434]  INFO -- : Executing: delete from films
+I, [2014-02-05T14:01:44.934711 #19434]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 'DVD', 9, 'Loved it')
+I, [2014-02-05T14:01:45.380845 #19454]  INFO -- : Executing: select * from films where id = 155
+I, [2014-02-05T14:01:45.381457 #19454]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergmann', year = 1967, country = 'Sweden', language = 'Swedish', distributor = 'MGM Home Entertainment', date = '12/17/13', format = 'DVD', rating = 9, notes = 'Loved it' where id = 155
+I, [2014-02-05T14:01:45.413330 #19434]  INFO -- : Executing: delete from films
+I, [2014-02-05T14:01:45.867996 #19459]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 'DVD', 9, 'Loved it')
+I, [2014-02-05T14:01:45.898172 #19434]  INFO -- : Executing: delete from films
+I, [2014-02-05T14:01:46.374018 #19434]  INFO -- : Executing: delete from films
+I, [2014-02-05T14:01:46.866196 #19434]  INFO -- : Executing: delete from films
+I, [2014-02-05T14:01:47.318088 #19474]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 'DVD', 9, 'Loved it')
+I, [2014-02-05T14:01:47.350661 #19434]  INFO -- : Executing: SELECT name, director, year, country, language, distributor, date, format, rating, notes FROM films
+I, [2014-02-05T14:01:47.351126 #19434]  INFO -- : Executing: select count(id) from films
+I, [2014-02-05T14:01:47.351264 #19434]  INFO -- : Executing: delete from films
+I, [2014-02-05T14:01:47.830672 #19434]  INFO -- : Executing: delete from films
+I, [2014-02-05T14:01:48.305865 #19434]  INFO -- : Executing: delete from films
+I, [2014-02-05T14:01:48.784420 #19434]  INFO -- : Executing: delete from films
+I, [2014-02-05T14:01:49.259675 #19434]  INFO -- : Executing: select count(id) from films
+I, [2014-02-05T14:01:49.260121 #19434]  INFO -- : Executing: delete from films
+I, [2014-02-05T14:01:49.733751 #19434]  INFO -- : Executing: delete from films
+I, [2014-02-05T14:01:49.739830 #19434]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 'DVD', 9, 'Loved it')
+I, [2014-02-05T14:01:49.740895 #19434]  INFO -- : Executing: update films set name = 'My Movie', director = 'Katie Miller', year = 1999, country = 'USA', language = 'English', distributor = 'Criterion Collection', date = '12/17/14', format = 'Theater', rating = 7, notes = 'Loved it a lot' where id = 158
+I, [2014-02-05T14:01:49.741801 #19434]  INFO -- : Executing: delete from films
+I, [2014-02-05T14:01:49.742564 #19434]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 'DVD', 9, 'Loved it')
+I, [2014-02-05T14:01:49.743331 #19434]  INFO -- : Executing: update films set name = 'My Movie', director = 'Katie Miller', year = 1999, country = 'USA', language = 'English', distributor = 'Criterion Collection', date = '12/17/14', format = 'Theater', rating = 7, notes = 'Loved it a lot' where id = 159
+I, [2014-02-05T14:01:49.744014 #19434]  INFO -- : Executing: select * from films where id = 159
+I, [2014-02-05T14:01:49.744357 #19434]  INFO -- : Executing: delete from films
+I, [2014-02-05T14:01:49.745206 #19434]  INFO -- : Executing: delete from films
+I, [2014-02-05T14:01:49.745983 #19434]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('Foo', 'Bar', 666, 'Bash', '', '', '', '', 0, '')
+I, [2014-02-05T14:01:49.746677 #19434]  INFO -- : Executing: select * from films where id = 160
+I, [2014-02-05T14:01:49.746961 #19434]  INFO -- : Executing: delete from films
+I, [2014-02-05T14:01:49.747691 #19434]  INFO -- : Executing: select count(id) from films
+I, [2014-02-05T14:01:49.748005 #19434]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 'DVD', 9, 'Loved it')
+I, [2014-02-05T14:01:49.748812 #19434]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 1966, country = 'Sweden', language = 'Swedish', distributor = 'MGM Home Entertainment', date = '12/17/13', format = 'DVD', rating = 9, notes = 'Loved it' where id = 161
+I, [2014-02-05T14:01:49.749508 #19434]  INFO -- : Executing: select count(id) from films
+I, [2014-02-05T14:01:49.749699 #19434]  INFO -- : Executing: delete from films
+I, [2014-02-05T14:01:49.750432 #19434]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany', 'German', 'Unknown', '12/09/13', 'DVD', 7, 'Great political commentary, very absurdist')
+I, [2014-02-05T14:01:49.751197 #19434]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 'DVD', 9, 'Loved it')
+I, [2014-02-05T14:01:49.751899 #19434]  INFO -- : Executing: select * from films order by name ASC
+I, [2014-02-05T14:01:49.752338 #19434]  INFO -- : Executing: delete from films
+I, [2014-02-05T14:01:49.753075 #19434]  INFO -- : Executing: select * from films where id = 12342
+I, [2014-02-05T14:01:49.753321 #19434]  INFO -- : Executing: delete from films
+I, [2014-02-05T14:01:49.754090 #19434]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany', 'German', 'Unknown', '12/09/13', 'DVD', 7, 'Great political commentary, very absurdist')
+I, [2014-02-05T14:01:49.754832 #19434]  INFO -- : Executing: select count(id) from films
+I, [2014-02-05T14:01:49.755058 #19434]  INFO -- : Executing: update films set name = 'The 3rd Generation', director = 'Rainer Werner Fassbinder', year = 1975, country = 'Germany', language = 'German', distributor = 'Unknown', date = '12/09/13', format = 'DVD', rating = 7, notes = 'Great political commentary, very absurdist' where id = 164
+I, [2014-02-05T14:01:49.755670 #19434]  INFO -- : Executing: select count(id) from films
+I, [2014-02-05T14:01:49.755865 #19434]  INFO -- : Executing: delete from films
+I, [2014-02-05T14:01:49.756569 #19434]  INFO -- : Executing: select * from films order by name ASC
+I, [2014-02-05T14:01:49.756813 #19434]  INFO -- : Executing: delete from films
+I, [2014-02-05T14:01:49.757501 #19434]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('Foo', 'Bar', 666, 'Bash', '', '', '', '', 0, '')
+I, [2014-02-05T14:01:49.758335 #19434]  INFO -- : Executing: delete from films
+I, [2014-02-05T14:01:49.759658 #19434]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 'DVD', 9, 'Loved it')
+I, [2014-02-05T14:01:49.760614 #19434]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany', 'German', 'Unknown', '12/09/13', 'DVD', 7, 'Great political commentary, very absurdist')
+I, [2014-02-05T14:01:49.761388 #19434]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('Irma Vep', 'Olivier Assayas', 1996, 'France', 'French, English', 'Criterion Collection', '12/04/13', 'DVD', 8, 'Maggie Cheung is great as the lead')
+I, [2014-02-05T14:01:50.226133 #19504]  INFO -- : Executing: select * from films order by name ASC
+I, [2014-02-05T14:01:50.251622 #19434]  INFO -- : Executing: delete from films
+I, [2014-02-05T14:01:50.257703 #19434]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 'DVD', 9, 'Loved it')
+I, [2014-02-05T14:01:50.258835 #19434]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany', 'German', 'Unknown', '12/09/13', 'DVD', 7, 'Great political commentary, very absurdist')
+I, [2014-02-05T14:01:50.259603 #19434]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('Irma Vep', 'Olivier Assayas', 1996, 'France', 'French, English', 'Criterion Collection', '12/04/13', 'DVD', 8, 'Maggie Cheung is great as the lead')
+I, [2014-02-05T14:01:50.696713 #19509]  INFO -- : Executing: select * from films where name LIKE '%Third%' OR director LIKE '%Third%' OR year LIKE '%Third%' OR country LIKE '%Third%'  OR language LIKE '%Third%' OR distributor LIKE '%Third%' OR format LIKE '%Third%' OR notes LIKE '%Third%'
+I, [2014-02-05T14:01:50.721799 #19434]  INFO -- : Executing: delete from films
+I, [2014-02-05T14:07:38.607080 #19531]  INFO -- : Executing: select * from films where id = 218903123980123
+I, [2014-02-05T14:07:38.633601 #19526]  INFO -- : Executing: delete from films
+I, [2014-02-05T14:07:38.635367 #19526]  INFO -- : Executing: delete from films
+I, [2014-02-05T14:07:38.636337 #19526]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 'DVD', 9, 'Loved it')
+I, [2014-02-05T14:07:39.110977 #19536]  INFO -- : Executing: select * from films where id = 172
+I, [2014-02-05T14:07:39.111638 #19536]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 1967, country = 'Sweden', language = 'Swedish', distributor = 'MGM Home Entertainment', date = '12/17/13', format = 'DVD', rating = 9, notes = 'Loved it' where id = 172
+I, [2014-02-05T14:07:39.141617 #19526]  INFO -- : Executing: delete from films
+I, [2014-02-05T14:07:39.142822 #19526]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 'DVD', 9, 'Loved it')
+I, [2014-02-05T14:07:39.604027 #19541]  INFO -- : Executing: select * from films where id = 173
+I, [2014-02-05T14:07:39.604630 #19541]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 1966, country = 'Sweden', language = 'Swedish', distributor = 'MGM Home Entertainment', date = '12/17/13', format = 'DVD', rating = 9, notes = 'Loved it' where id = 173
+I, [2014-02-05T14:07:39.634996 #19526]  INFO -- : Executing: delete from films
+I, [2014-02-05T14:07:39.636356 #19526]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 'DVD', 9, 'Loved it')
+I, [2014-02-05T14:07:40.097579 #19546]  INFO -- : Executing: select * from films where id = 174
+I, [2014-02-05T14:07:40.098370 #19546]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergmann', year = 1967, country = 'Sweden', language = 'Swedish', distributor = 'MGM Home Entertainment', date = '12/17/13', format = 'DVD', rating = 9, notes = 'Loved it' where id = 174
+I, [2014-02-05T14:07:40.129196 #19526]  INFO -- : Executing: delete from films
+I, [2014-02-05T14:07:40.616210 #19526]  INFO -- : Executing: delete from films
+I, [2014-02-05T14:07:41.082744 #19556]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 'DVD', 9, 'Loved it')
+I, [2014-02-05T14:07:41.112929 #19526]  INFO -- : Executing: SELECT name, director, year, country, language, distributor, date, format, rating, notes FROM films
+I, [2014-02-05T14:07:41.113541 #19526]  INFO -- : Executing: select count(id) from films
+I, [2014-02-05T14:07:41.113711 #19526]  INFO -- : Executing: delete from films
+I, [2014-02-05T14:07:41.608938 #19526]  INFO -- : Executing: delete from films
+I, [2014-02-05T14:07:42.107632 #19526]  INFO -- : Executing: delete from films
+I, [2014-02-05T14:07:42.584088 #19526]  INFO -- : Executing: delete from films
+I, [2014-02-05T14:07:43.068271 #19526]  INFO -- : Executing: delete from films
+I, [2014-02-05T14:07:43.566379 #19526]  INFO -- : Executing: select count(id) from films
+I, [2014-02-05T14:07:43.566888 #19526]  INFO -- : Executing: delete from films
+I, [2014-02-05T14:07:44.037377 #19586]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 'DVD', 9, 'Loved it')
+I, [2014-02-05T14:07:44.067489 #19526]  INFO -- : Executing: delete from films
+I, [2014-02-05T14:07:44.555020 #19526]  INFO -- : Executing: delete from films
+I, [2014-02-05T14:07:44.560998 #19526]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('Foo', 'Bar', 666, 'Bash', '', '', '', '', 0, '')
+I, [2014-02-05T14:07:44.562007 #19526]  INFO -- : Executing: select * from films where id = 177
+I, [2014-02-05T14:07:44.562457 #19526]  INFO -- : Executing: delete from films
+I, [2014-02-05T14:07:44.563353 #19526]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('Foo', 'Bar', 666, 'Bash', '', '', '', '', 0, '')
+I, [2014-02-05T14:07:44.564081 #19526]  INFO -- : Executing: delete from films
+I, [2014-02-05T14:07:44.564761 #19526]  INFO -- : Executing: delete from films
+I, [2014-02-05T14:07:44.565464 #19526]  INFO -- : Executing: select count(id) from films
+I, [2014-02-05T14:07:44.565691 #19526]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 'DVD', 9, 'Loved it')
+I, [2014-02-05T14:07:44.566388 #19526]  INFO -- : Executing: update films set name = 'Persona', director = 'Ingmar Bergman', year = 1966, country = 'Sweden', language = 'Swedish', distributor = 'MGM Home Entertainment', date = '12/17/13', format = 'DVD', rating = 9, notes = 'Loved it' where id = 179
+I, [2014-02-05T14:07:44.567017 #19526]  INFO -- : Executing: select count(id) from films
+I, [2014-02-05T14:07:44.567156 #19526]  INFO -- : Executing: delete from films
+I, [2014-02-05T14:07:44.567804 #19526]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 'DVD', 9, 'Loved it')
+I, [2014-02-05T14:07:44.568543 #19526]  INFO -- : Executing: update films set name = 'My Movie', director = 'Katie Miller', year = 1999, country = 'USA', language = 'English', distributor = 'Criterion Collection', date = '12/17/14', format = 'Theater', rating = 7, notes = 'Loved it a lot' where id = 180
+I, [2014-02-05T14:07:44.569049 #19526]  INFO -- : Executing: select * from films where id = 180
+I, [2014-02-05T14:07:44.569286 #19526]  INFO -- : Executing: delete from films
+I, [2014-02-05T14:07:44.569984 #19526]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 'DVD', 9, 'Loved it')
+I, [2014-02-05T14:07:44.570760 #19526]  INFO -- : Executing: update films set name = 'My Movie', director = 'Katie Miller', year = 1999, country = 'USA', language = 'English', distributor = 'Criterion Collection', date = '12/17/14', format = 'Theater', rating = 7, notes = 'Loved it a lot' where id = 181
+I, [2014-02-05T14:07:44.571475 #19526]  INFO -- : Executing: delete from films
+I, [2014-02-05T14:07:44.572142 #19526]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany', 'German', 'Unknown', '12/09/13', 'DVD', 7, 'Great political commentary, very absurdist')
+I, [2014-02-05T14:07:44.572841 #19526]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 'DVD', 9, 'Loved it')
+I, [2014-02-05T14:07:44.573485 #19526]  INFO -- : Executing: select * from films order by name ASC
+I, [2014-02-05T14:07:44.573860 #19526]  INFO -- : Executing: delete from films
+I, [2014-02-05T14:07:44.574579 #19526]  INFO -- : Executing: select * from films order by name ASC
+I, [2014-02-05T14:07:44.574777 #19526]  INFO -- : Executing: delete from films
+I, [2014-02-05T14:07:44.575470 #19526]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany', 'German', 'Unknown', '12/09/13', 'DVD', 7, 'Great political commentary, very absurdist')
+I, [2014-02-05T14:07:44.576130 #19526]  INFO -- : Executing: select count(id) from films
+I, [2014-02-05T14:07:44.576318 #19526]  INFO -- : Executing: update films set name = 'The 3rd Generation', director = 'Rainer Werner Fassbinder', year = 1975, country = 'Germany', language = 'German', distributor = 'Unknown', date = '12/09/13', format = 'DVD', rating = 7, notes = 'Great political commentary, very absurdist' where id = 184
+I, [2014-02-05T14:07:44.576945 #19526]  INFO -- : Executing: select count(id) from films
+I, [2014-02-05T14:07:44.577177 #19526]  INFO -- : Executing: delete from films
+I, [2014-02-05T14:07:44.577821 #19526]  INFO -- : Executing: select * from films where id = 12342
+I, [2014-02-05T14:07:44.578083 #19526]  INFO -- : Executing: delete from films
+I, [2014-02-05T14:07:44.579384 #19526]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 'DVD', 9, 'Loved it')
+I, [2014-02-05T14:07:44.580220 #19526]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany', 'German', 'Unknown', '12/09/13', 'DVD', 7, 'Great political commentary, very absurdist')
+I, [2014-02-05T14:07:44.580941 #19526]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('Irma Vep', 'Olivier Assayas', 1996, 'France', 'French, English', 'Criterion Collection', '12/04/13', 'DVD', 8, 'Maggie Cheung is great as the lead')
+I, [2014-02-05T14:07:45.073004 #19596]  INFO -- : Executing: select * from films order by name ASC
+I, [2014-02-05T14:07:45.102440 #19526]  INFO -- : Executing: delete from films
+I, [2014-02-05T14:07:45.108369 #19526]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('Persona', 'Ingmar Bergman', 1966, 'Sweden', 'Swedish', 'MGM Home Entertainment', '12/17/13', 'DVD', 9, 'Loved it')
+I, [2014-02-05T14:07:45.109400 #19526]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('The Third Generation', 'Rainer Werner Fassbinder', 1975, 'Germany', 'German', 'Unknown', '12/09/13', 'DVD', 7, 'Great political commentary, very absurdist')
+I, [2014-02-05T14:07:45.110346 #19526]  INFO -- : Executing: insert into films(name, director, year, country, language, distributor, date, format, rating, notes) values('Irma Vep', 'Olivier Assayas', 1996, 'France', 'French, English', 'Criterion Collection', '12/04/13', 'DVD', 8, 'Maggie Cheung is great as the lead')
+I, [2014-02-05T14:07:45.569509 #19601]  INFO -- : Executing: select * from films where name LIKE '%Third%' OR director LIKE '%Third%' OR year LIKE '%Third%' OR country LIKE '%Third%'  OR language LIKE '%Third%' OR distributor LIKE '%Third%' OR format LIKE '%Third%' OR notes LIKE '%Third%'
+I, [2014-02-05T14:07:45.596973 #19526]  INFO -- : Executing: delete from films
